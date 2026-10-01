@@ -1,0 +1,21 @@
+{
+  "frontend_id": "257",
+  "title": "二叉树的所有路径",
+  "title_slug": "binary-tree-paths",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/binary-tree-paths/",
+  "meta": {
+    "name": "binaryTreePaths",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<string>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def binaryTreePaths(self, root: TreeNode | None) -> list[str]:\n        "
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "752",
+  "title": "打开转盘锁",
+  "title_slug": "open-the-lock",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/open-the-lock/",
+  "meta": {
+    "name": "openLock",
+    "params": [
+      {
+        "name": "deadends",
+        "type": "string[]"
+      },
+      {
+        "name": "target",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def openLock(self, deadends: list[str], target: str) -> int:\n        "
+}

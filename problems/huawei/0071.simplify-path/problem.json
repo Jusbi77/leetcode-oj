@@ -1,0 +1,20 @@
+{
+  "frontend_id": "71",
+  "title": "简化路径",
+  "title_slug": "simplify-path",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/simplify-path/",
+  "meta": {
+    "name": "simplifyPath",
+    "params": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def simplifyPath(self, path: str) -> str:\n        "
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "44",
+  "title": "通配符匹配",
+  "title_slug": "wildcard-matching",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/wildcard-matching/",
+  "meta": {
+    "name": "isMatch",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "p",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        "
+}

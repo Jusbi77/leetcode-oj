@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1293",
+  "title": "网格中的最短路径",
+  "title_slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+  "meta": {
+    "name": "shortestPath",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      },
+      {
+        "type": "integer",
+        "name": "k"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def shortestPath(self, grid: list[list[int]], k: int) -> int:\n        "
+}

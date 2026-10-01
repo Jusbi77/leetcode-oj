@@ -1,0 +1,8 @@
+{
+  "raw": "[\"un\",\"iq\",\"ue\"]\n[\"cha\",\"r\",\"act\",\"ers\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]",
+  "expected": [
+    4,
+    6,
+    26
+  ]
+}

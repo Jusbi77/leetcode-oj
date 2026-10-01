@@ -1,0 +1,20 @@
+{
+  "frontend_id": "980",
+  "title": "不同路径 III",
+  "title_slug": "unique-paths-iii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/unique-paths-iii/",
+  "meta": {
+    "name": "uniquePathsIII",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def uniquePathsIII(self, grid: List[List[int]]) -> int:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "932",
+  "title": "漂亮数组",
+  "title_slug": "beautiful-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/beautiful-array/",
+  "meta": {
+    "name": "beautifulArray",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def beautifulArray(self, n: int) -> list[int]:\n        "
+}

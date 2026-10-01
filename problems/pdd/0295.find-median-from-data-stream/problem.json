@@ -1,0 +1,39 @@
+{
+  "frontend_id": "295",
+  "title": "数据流的中位数",
+  "title_slug": "find-median-from-data-stream",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/find-median-from-data-stream/",
+  "meta": {
+    "classname": "MedianFinder",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "num"
+          }
+        ],
+        "name": "addNum",
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "params": [],
+        "name": "findMedian",
+        "return": {
+          "type": "double"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MedianFinder:\n\n    def __init__(self):\n        \n\n    def addNum(self, num: int) -> None:\n        \n\n    def findMedian(self) -> float:\n        \n\n\n# Your MedianFinder object will be instantiated and called as such:\n# obj = MedianFinder()\n# obj.addNum(num)\n# param_2 = obj.findMedian()"
+}

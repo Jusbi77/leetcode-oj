@@ -1,0 +1,24 @@
+{
+  "frontend_id": "25",
+  "title": "K 个一组翻转链表",
+  "title_slug": "reverse-nodes-in-k-group",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/reverse-nodes-in-k-group/",
+  "meta": {
+    "name": "reverseKGroup",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def reverseKGroup(self, head: ListNode | None, k: int) -> ListNode | None:\n        "
+}

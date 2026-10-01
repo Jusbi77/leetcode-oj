@@ -1,0 +1,20 @@
+{
+  "frontend_id": "912",
+  "title": "排序数组",
+  "title_slug": "sort-an-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/sort-an-array/",
+  "meta": {
+    "name": "sortArray",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def sortArray(self, nums: list[int]) -> list[int]:\n        "
+}

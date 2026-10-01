@@ -1,0 +1,72 @@
+{
+  "frontend_id": "622",
+  "title": "设计循环队列",
+  "title_slug": "design-circular-queue",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/design-circular-queue/",
+  "meta": {
+    "classname": "MyCircularQueue",
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "k"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "name": "enQueue",
+        "return": {
+          "type": "boolean"
+        }
+      },
+      {
+        "params": [],
+        "name": "deQueue",
+        "return": {
+          "type": "boolean"
+        }
+      },
+      {
+        "params": [],
+        "name": "Front",
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "params": [],
+        "name": "Rear",
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "params": [],
+        "name": "isEmpty",
+        "return": {
+          "type": "boolean"
+        }
+      },
+      {
+        "params": [],
+        "name": "isFull",
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MyCircularQueue:\n\n    def __init__(self, k: int):\n        \n\n    def enQueue(self, value: int) -> bool:\n        \n\n    def deQueue(self) -> bool:\n        \n\n    def Front(self) -> int:\n        \n\n    def Rear(self) -> int:\n        \n\n    def isEmpty(self) -> bool:\n        \n\n    def isFull(self) -> bool:\n        \n\n\n# Your MyCircularQueue object will be instantiated and called as such:\n# obj = MyCircularQueue(k)\n# param_1 = obj.enQueue(value)\n# param_2 = obj.deQueue()\n# param_3 = obj.Front()\n# param_4 = obj.Rear()\n# param_5 = obj.isEmpty()\n# param_6 = obj.isFull()"
+}

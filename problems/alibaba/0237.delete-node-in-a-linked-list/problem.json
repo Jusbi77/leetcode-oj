@@ -1,0 +1,44 @@
+{
+  "frontend_id": "237",
+  "title": "删除链表中的节点",
+  "title_slug": "delete-node-in-a-linked-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/delete-node-in-a-linked-list/",
+  "meta": {
+    "name": "deleteNode",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "node",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "c",
+      "csharp",
+      "javascript",
+      "ruby",
+      "swift",
+      "golang",
+      "python3",
+      "scala",
+      "kotlin",
+      "php",
+      "typescript"
+    ]
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def deleteNode(self, node):\n        \"\"\"\n        :type node: ListNode\n        :rtype: void Do not return anything, modify node in-place instead.\n        \"\"\"\n        "
+}

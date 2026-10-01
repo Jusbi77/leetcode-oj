@@ -1,0 +1,24 @@
+{
+  "frontend_id": "209",
+  "title": "长度最小的子数组",
+  "title_slug": "minimum-size-subarray-sum",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-size-subarray-sum/",
+  "meta": {
+    "name": "minSubArrayLen",
+    "params": [
+      {
+        "name": "target",
+        "type": "integer"
+      },
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minSubArrayLen(self, target: int, nums: list[int]) -> int:\n        "
+}

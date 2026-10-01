@@ -1,0 +1,20 @@
+{
+  "frontend_id": "104",
+  "title": "二叉树的最大深度",
+  "title_slug": "maximum-depth-of-binary-tree",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/maximum-depth-of-binary-tree/",
+  "meta": {
+    "name": "maxDepth",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maxDepth(self, root: TreeNode | None) -> int:\n        "
+}

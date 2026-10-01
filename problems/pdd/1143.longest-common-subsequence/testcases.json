@@ -1,0 +1,8 @@
+{
+  "raw": "\"abcde\"\n\"ace\"\n\"abc\"\n\"abc\"\n\"abc\"\n\"def\"",
+  "expected": [
+    3,
+    3,
+    0
+  ]
+}

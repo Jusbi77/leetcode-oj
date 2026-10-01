@@ -1,0 +1,24 @@
+{
+  "frontend_id": "239",
+  "title": "滑动窗口最大值",
+  "title_slug": "sliding-window-maximum",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/sliding-window-maximum/",
+  "meta": {
+    "name": "maxSlidingWindow",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:\n        "
+}

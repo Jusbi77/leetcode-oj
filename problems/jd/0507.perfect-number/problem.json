@@ -1,0 +1,20 @@
+{
+  "frontend_id": "507",
+  "title": "完美数",
+  "title_slug": "perfect-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/perfect-number/",
+  "meta": {
+    "name": "checkPerfectNumber",
+    "params": [
+      {
+        "name": "num",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def checkPerfectNumber(self, num: int) -> bool:\n        "
+}

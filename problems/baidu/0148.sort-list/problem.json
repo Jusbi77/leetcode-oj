@@ -1,0 +1,22 @@
+{
+  "frontend_id": "148",
+  "title": "排序链表",
+  "title_slug": "sort-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/sort-list/",
+  "meta": {
+    "name": "sortList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        "
+}

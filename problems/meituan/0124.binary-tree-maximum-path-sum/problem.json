@@ -1,0 +1,20 @@
+{
+  "frontend_id": "124",
+  "title": "二叉树中的最大路径和",
+  "title_slug": "binary-tree-maximum-path-sum",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/binary-tree-maximum-path-sum/",
+  "meta": {
+    "name": "maxPathSum",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maxPathSum(self, root: TreeNode | None) -> int:\n        "
+}

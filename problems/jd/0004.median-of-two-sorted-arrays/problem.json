@@ -1,0 +1,24 @@
+{
+  "frontend_id": "4",
+  "title": "寻找两个正序数组的中位数",
+  "title_slug": "median-of-two-sorted-arrays",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/median-of-two-sorted-arrays/",
+  "meta": {
+    "name": "findMedianSortedArrays",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:\n        "
+}

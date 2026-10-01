@@ -1,0 +1,20 @@
+{
+  "frontend_id": "301",
+  "title": "删除无效的括号",
+  "title_slug": "remove-invalid-parentheses",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/remove-invalid-parentheses/",
+  "meta": {
+    "name": "removeInvalidParentheses",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeInvalidParentheses(self, s: str) -> list[str]:\n        "
+}

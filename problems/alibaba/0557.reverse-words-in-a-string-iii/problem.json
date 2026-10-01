@@ -1,0 +1,20 @@
+{
+  "frontend_id": "557",
+  "title": "反转字符串中的单词 III",
+  "title_slug": "reverse-words-in-a-string-iii",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/reverse-words-in-a-string-iii/",
+  "meta": {
+    "name": "reverseWords",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def reverseWords(self, s: str) -> str:\n        "
+}

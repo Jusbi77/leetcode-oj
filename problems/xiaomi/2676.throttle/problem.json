@@ -1,0 +1,29 @@
+{
+  "frontend_id": "2676",
+  "title": "节流",
+  "title_slug": "throttle",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/throttle/",
+  "meta": {
+    "name": "throttle",
+    "params": [
+      {
+        "name": "t",
+        "type": "integer"
+      },
+      {
+        "type": "string",
+        "name": "fn"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "manual": true
+  },
+  "code_snippet": ""
+}

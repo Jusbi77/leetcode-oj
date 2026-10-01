@@ -1,0 +1,20 @@
+{
+  "frontend_id": "56",
+  "title": "合并区间",
+  "title_slug": "merge-intervals",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/merge-intervals/",
+  "meta": {
+    "name": "merge",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[][]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def merge(self, intervals: list[list[int]]) -> list[list[int]]:\n        "
+}

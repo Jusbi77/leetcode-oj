@@ -1,0 +1,20 @@
+{
+  "frontend_id": "8",
+  "title": "字符串转换整数 (atoi)",
+  "title_slug": "string-to-integer-atoi",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/string-to-integer-atoi/",
+  "meta": {
+    "name": "myAtoi",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def myAtoi(self, s: str) -> int:\n        "
+}

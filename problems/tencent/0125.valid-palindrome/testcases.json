@@ -1,0 +1,8 @@
+{
+  "raw": "\"A man, a plan, a canal: Panama\"\n\"race a car\"\n\" \"",
+  "expected": [
+    true,
+    false,
+    true
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "287",
+  "title": "寻找重复数",
+  "title_slug": "find-the-duplicate-number",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-the-duplicate-number/",
+  "meta": {
+    "name": "findDuplicate",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findDuplicate(self, nums: list[int]) -> int:\n        "
+}

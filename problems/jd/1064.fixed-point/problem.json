@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1064",
+  "title": "不动点",
+  "title_slug": "fixed-point",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/fixed-point/",
+  "meta": {
+    "name": "fixedPoint",
+    "params": [
+      {
+        "name": "arr",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def fixedPoint(self, arr: List[int]) -> int:\n        "
+}

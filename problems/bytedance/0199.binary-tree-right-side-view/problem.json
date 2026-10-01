@@ -1,0 +1,21 @@
+{
+  "frontend_id": "199",
+  "title": "二叉树的右视图",
+  "title_slug": "binary-tree-right-side-view",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/binary-tree-right-side-view/",
+  "meta": {
+    "name": "rightSideView",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "93",
+  "title": "复原 IP 地址",
+  "title_slug": "restore-ip-addresses",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/restore-ip-addresses/",
+  "meta": {
+    "name": "restoreIpAddresses",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def restoreIpAddresses(self, s: str) -> list[str]:\n        "
+}

@@ -1,0 +1,23 @@
+{
+  "frontend_id": "283",
+  "title": "移动零",
+  "title_slug": "move-zeroes",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/move-zeroes/",
+  "meta": {
+    "name": "moveZeroes",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def moveZeroes(self, nums: list[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+}

@@ -1,0 +1,21 @@
+{
+  "frontend_id": "540",
+  "title": "有序数组中的单一元素",
+  "title_slug": "single-element-in-a-sorted-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/single-element-in-a-sorted-array/",
+  "meta": {
+    "name": "singleNonDuplicate",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": false
+  },
+  "code_snippet": "class Solution:\n    def singleNonDuplicate(self, nums: List[int]) -> int:\n        "
+}

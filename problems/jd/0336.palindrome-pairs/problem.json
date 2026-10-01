@@ -1,0 +1,20 @@
+{
+  "frontend_id": "336",
+  "title": "回文对",
+  "title_slug": "palindrome-pairs",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/palindrome-pairs/",
+  "meta": {
+    "name": "palindromePairs",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def palindromePairs(self, words: list[str]) -> list[list[int]]:\n        "
+}

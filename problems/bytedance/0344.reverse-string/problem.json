@@ -1,0 +1,23 @@
+{
+  "frontend_id": "344",
+  "title": "反转字符串",
+  "title_slug": "reverse-string",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/reverse-string/",
+  "meta": {
+    "name": "reverseString",
+    "params": [
+      {
+        "name": "s",
+        "type": "character[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def reverseString(self, s: list[str]) -> None:\n        \"\"\"\n        Do not return anything, modify s in-place instead.\n        \"\"\"\n        "
+}

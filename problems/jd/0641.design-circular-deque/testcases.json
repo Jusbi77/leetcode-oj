@@ -1,0 +1,4 @@
+{
+  "raw": "[\"MyCircularDeque\",\"insertLast\",\"insertLast\",\"insertFront\",\"insertFront\",\"getRear\",\"isFull\",\"deleteLast\",\"insertFront\",\"getFront\"]\n[[3],[1],[2],[3],[4],[],[],[],[4],[]]",
+  "expected": []
+}

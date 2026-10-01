@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1288",
+  "title": "删除被覆盖区间",
+  "title_slug": "remove-covered-intervals",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-covered-intervals/",
+  "meta": {
+    "name": "removeCoveredIntervals",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeCoveredIntervals(self, intervals: list[list[int]]) -> int:\n        "
+}

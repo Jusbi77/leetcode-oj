@@ -1,0 +1,23 @@
+{
+  "frontend_id": "143",
+  "title": "重排链表",
+  "title_slug": "reorder-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/reorder-list/",
+  "meta": {
+    "name": "reorderList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def reorderList(self, head: Optional[ListNode]) -> None:\n        \"\"\"\n        Do not return anything, modify head in-place instead.\n        \"\"\"\n        "
+}

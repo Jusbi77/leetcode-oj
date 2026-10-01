@@ -1,0 +1,20 @@
+{
+  "frontend_id": "53",
+  "title": "最大子数组和",
+  "title_slug": "maximum-subarray",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-subarray/",
+  "meta": {
+    "name": "maxSubArray",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxSubArray(self, nums: list[int]) -> int:\n        "
+}

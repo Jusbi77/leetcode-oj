@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1006",
+  "title": "笨阶乘",
+  "title_slug": "clumsy-factorial",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/clumsy-factorial/",
+  "meta": {
+    "name": "clumsy",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def clumsy(self, n: int) -> int:\n        "
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "2771",
+  "title": "构造最长非递减子数组",
+  "title_slug": "longest-non-decreasing-subarray-from-two-arrays",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-non-decreasing-subarray-from-two-arrays/",
+  "meta": {
+    "name": "maxNonDecreasingLength",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer[]",
+        "name": "nums2"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxNonDecreasingLength(self, nums1: List[int], nums2: List[int]) -> int:\n        "
+}

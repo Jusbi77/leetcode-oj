@@ -1,0 +1,24 @@
+{
+  "frontend_id": "205",
+  "title": "同构字符串",
+  "title_slug": "isomorphic-strings",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/isomorphic-strings/",
+  "meta": {
+    "name": "isIsomorphic",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isIsomorphic(self, s: str, t: str) -> bool:\n        "
+}

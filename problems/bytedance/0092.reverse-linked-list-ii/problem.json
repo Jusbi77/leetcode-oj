@@ -1,0 +1,30 @@
+{
+  "frontend_id": "92",
+  "title": "反转链表 II",
+  "title_slug": "reverse-linked-list-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/reverse-linked-list-ii/",
+  "meta": {
+    "name": "reverseBetween",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "left",
+        "type": "integer"
+      },
+      {
+        "name": "right",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def reverseBetween(self, head: ListNode | None, left: int, right: int) -> ListNode | None:\n        "
+}

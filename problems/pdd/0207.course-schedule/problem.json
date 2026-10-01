@@ -1,0 +1,24 @@
+{
+  "frontend_id": "207",
+  "title": "课程表",
+  "title_slug": "course-schedule",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/course-schedule/",
+  "meta": {
+    "name": "canFinish",
+    "params": [
+      {
+        "name": "numCourses",
+        "type": "integer"
+      },
+      {
+        "name": "prerequisites",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:\n        "
+}

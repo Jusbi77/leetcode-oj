@@ -1,0 +1,20 @@
+{
+  "frontend_id": "740",
+  "title": "删除并获得点数",
+  "title_slug": "delete-and-earn",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/delete-and-earn/",
+  "meta": {
+    "name": "deleteAndEarn",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def deleteAndEarn(self, nums: list[int]) -> int:\n        "
+}

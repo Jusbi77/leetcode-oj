@@ -1,0 +1,20 @@
+{
+  "frontend_id": "122",
+  "title": "买卖股票的最佳时机 II",
+  "title_slug": "best-time-to-buy-and-sell-stock-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/",
+  "meta": {
+    "name": "maxProfit",
+    "params": [
+      {
+        "name": "prices",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxProfit(self, prices: list[int]) -> int:\n        "
+}

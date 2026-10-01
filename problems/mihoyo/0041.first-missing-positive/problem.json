@@ -1,0 +1,20 @@
+{
+  "frontend_id": "41",
+  "title": "缺失的第一个正数",
+  "title_slug": "first-missing-positive",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/first-missing-positive/",
+  "meta": {
+    "name": "firstMissingPositive",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def firstMissingPositive(self, nums: list[int]) -> int:\n        "
+}

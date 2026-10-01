@@ -1,0 +1,37 @@
+{
+  "frontend_id": "88",
+  "title": "合并两个有序数组",
+  "title_slug": "merge-sorted-array",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/merge-sorted-array/",
+  "meta": {
+    "name": "merge",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]",
+        "implicitsizeparam": false
+      },
+      {
+        "name": "m",
+        "type": "integer"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]",
+        "implicitsizeparam": false
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:\n        \"\"\"\n        Do not return anything, modify nums1 in-place instead.\n        \"\"\"\n        "
+}

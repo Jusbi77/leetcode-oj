@@ -1,0 +1,20 @@
+{
+  "frontend_id": "20",
+  "title": "有效的括号",
+  "title_slug": "valid-parentheses",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/valid-parentheses/",
+  "meta": {
+    "name": "isValid",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isValid(self, s: str) -> bool:\n        "
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "692",
+  "title": "前K个高频单词",
+  "title_slug": "top-k-frequent-words",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/top-k-frequent-words/",
+  "meta": {
+    "name": "topKFrequent",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def topKFrequent(self, words: list[str], k: int) -> list[str]:\n        "
+}

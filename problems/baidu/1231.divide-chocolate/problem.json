@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1231",
+  "title": "分享巧克力",
+  "title_slug": "divide-chocolate",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/divide-chocolate/",
+  "meta": {
+    "name": "maximizeSweetness",
+    "params": [
+      {
+        "name": "sweetness",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maximizeSweetness(self, sweetness: list[int], k: int) -> int:\n        "
+}

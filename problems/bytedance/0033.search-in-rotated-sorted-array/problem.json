@@ -1,0 +1,24 @@
+{
+  "frontend_id": "33",
+  "title": "搜索旋转排序数组",
+  "title_slug": "search-in-rotated-sorted-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/search-in-rotated-sorted-array/",
+  "meta": {
+    "name": "search",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def search(self, nums: list[int], target: int) -> int:\n        "
+}

@@ -1,0 +1,9 @@
+{
+  "raw": "[\"acca\",\"bbbb\",\"caca\"]\n\"aba\"\n[\"abba\",\"baab\"]\n\"bab\"",
+  "expected": [
+    6,
+    4,
+    1,
+    16
+  ]
+}

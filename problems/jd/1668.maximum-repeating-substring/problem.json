@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1668",
+  "title": "最大重复子字符串",
+  "title_slug": "maximum-repeating-substring",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/maximum-repeating-substring/",
+  "meta": {
+    "name": "maxRepeating",
+    "params": [
+      {
+        "name": "sequence",
+        "type": "string"
+      },
+      {
+        "type": "string",
+        "name": "word"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxRepeating(self, sequence: str, word: str) -> int:\n        "
+}

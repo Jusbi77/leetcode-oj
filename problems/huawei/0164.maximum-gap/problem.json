@@ -1,0 +1,20 @@
+{
+  "frontend_id": "164",
+  "title": "最大间距",
+  "title_slug": "maximum-gap",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-gap/",
+  "meta": {
+    "name": "maximumGap",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maximumGap(self, nums: List[int]) -> int:\n        "
+}

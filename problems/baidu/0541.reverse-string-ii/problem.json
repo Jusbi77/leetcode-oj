@@ -1,0 +1,24 @@
+{
+  "frontend_id": "541",
+  "title": "反转字符串 II",
+  "title_slug": "reverse-string-ii",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/reverse-string-ii/",
+  "meta": {
+    "name": "reverseStr",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def reverseStr(self, s: str, k: int) -> str:\n        "
+}

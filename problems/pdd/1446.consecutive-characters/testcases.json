@@ -1,0 +1,7 @@
+{
+  "raw": "\"leetcode\"\n\"abbcccddddeeeeedcba\"",
+  "expected": [
+    2,
+    5
+  ]
+}

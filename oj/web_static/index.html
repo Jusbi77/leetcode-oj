@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeetCode OJ — 企业真题</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+<style>
+/* ── reset & tokens ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:       #0d1117;
+  --surface:  #161b22;
+  --border:   #30363d;
+  --text:     #e6edf3;
+  --muted:    #8b949e;
+  --accent:   #58a6ff;
+  --green:    #3fb950;
+  --orange:   #d29922;
+  --red:      #f85149;
+  --tag-easy: #238636;
+  --tag-med:  #9a6700;
+  --tag-hard: #b62324;
+  --sidebar-w: 280px;
+  --toolbar-h: 48px;
+  font-size: 14px;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+/* ── scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── sidebar ── */
+#sidebar {
+  width: var(--sidebar-w);
+  flex-shrink: 0;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#sidebar-header {
+  padding: 16px 14px 10px;
+  border-bottom: 1px solid var(--border);
+}
+#sidebar-header h1 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+/* company tabs */
+#company-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 10px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.tab-btn {
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--muted);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.tab-btn:hover { border-color: var(--accent); color: var(--accent); }
+.tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+
+/* progress bar */
+#progress-bar-wrap { padding: 8px 12px 0; }
+#progress-label { font-size: 11px; color: var(--muted); display: flex; justify-content: space-between; margin-bottom: 4px; }
+#progress-track { height: 3px; background: var(--border); border-radius: 2px; }
+#progress-fill  { height: 3px; background: var(--green); border-radius: 2px; transition: width .3s; width: 0%; }
+
+/* problem list */
+#plist-wrap { flex: 1; overflow-y: auto; }
+#plist { list-style: none; }
+#plist li {
+  padding: 9px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: background .1s;
+}
+#plist li:hover  { background: rgba(88,166,255,.07); }
+#plist li.active { background: rgba(88,166,255,.12); border-left: 2px solid var(--accent); }
+.p-id   { color: var(--muted); font-size: 11px; min-width: 30px; }
+.p-title { flex: 1; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.diff-tag {
+  font-size: 10px; font-weight: 600;
+  padding: 1px 5px; border-radius: 3px;
+  flex-shrink: 0;
+}
+.d-简单 { background: rgba(35,134,54,.3); color: #3fb950; }
+.d-中等 { background: rgba(154,103,0,.3); color: #d29922; }
+.d-困难 { background: rgba(182,35,36,.3); color: #f85149; }
+.solved-mark { color: var(--green); font-size: 12px; flex-shrink: 0; }
+
+/* ── main area ── */
+#main { flex: 1; display: flex; min-width: 0; overflow: hidden; }
+
+/* description */
+#desc-pane {
+  width: 42%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+}
+#desc-header {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+#desc-title { font-size: 14px; font-weight: 600; flex: 1; }
+#desc-meta  { font-size: 12px; color: var(--muted); }
+#desc-link  { font-size: 12px; color: var(--accent); text-decoration: none; }
+#desc-link:hover { text-decoration: underline; }
+#desc-body  { flex: 1; overflow-y: auto; padding: 16px 20px; }
+#desc-body pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  overflow-x: auto;
+  font-size: 12px;
+  white-space: pre-wrap;
+  font-family: "SF Mono", Consolas, monospace;
+  line-height: 1.5;
+  color: #c9d1d9;
+}
+#desc-body p { line-height: 1.7; margin-bottom: 10px; }
+#desc-hint  {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  gap: 8px;
+  font-size: 14px;
+}
+#desc-hint svg { opacity: .3; }
+
+/* ── editor pane ── */
+#editor-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: var(--bg);
+}
+#toolbar {
+  height: var(--toolbar-h);
+  padding: 0 14px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.btn {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity .15s, transform .1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn:disabled { opacity: .4; cursor: default; }
+.btn:not(:disabled):active { transform: scale(.97); }
+#btn-run  { background: var(--green); color: #fff; }
+#btn-save { background: var(--accent); color: #fff; }
+#btn-run:hover:not(:disabled)  { opacity: .85; }
+#btn-save:hover:not(:disabled) { opacity: .85; }
+#status-msg { font-size: 12px; color: var(--muted); margin-left: 4px; }
+
+/* CodeMirror skin */
+.CodeMirror {
+  flex: 1;
+  height: auto;
+  font-size: 13.5px;
+  line-height: 1.6;
+  font-family: "SF Mono", "Fira Code", Consolas, monospace;
+  background: var(--bg) !important;
+  color: #c9d1d9 !important;
+}
+.CodeMirror-gutters { background: var(--surface) !important; border-right: 1px solid var(--border) !important; }
+.CodeMirror-linenumber { color: #484f58 !important; }
+.CodeMirror-cursor { border-left-color: var(--accent) !important; }
+.CodeMirror-selected { background: rgba(88,166,255,.15) !important; }
+#editor-wrap { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+#fallback {
+  flex: 1; width: 100%; border: none;
+  background: var(--bg); color: var(--text);
+  font-family: "SF Mono", Consolas, monospace;
+  font-size: 13px; padding: 14px; resize: none;
+  outline: none;
+}
+
+/* result panel */
+#result-pane {
+  max-height: 38%;
+  overflow-y: auto;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+#result-inner { padding: 10px 14px 12px; }
+.verdict {
+  font-size: 15px; font-weight: 700;
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 10px;
+}
+.verdict.ac { color: var(--green); }
+.verdict.wa { color: var(--red); }
+.cases-grid { display: flex; flex-direction: column; gap: 6px; }
+.case-row {
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  font-family: "SF Mono", Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.case-row.ok { border-color: rgba(63,185,80,.3); background: rgba(63,185,80,.05); }
+.case-row.ng { border-color: rgba(248,81,73,.3); background: rgba(248,81,73,.05); }
+.case-label { font-weight: 600; margin-bottom: 4px; }
+.case-label.ok { color: var(--green); }
+.case-label.ng { color: var(--red); }
+.case-field { color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+.case-field span { color: var(--text); }
+.case-err { color: var(--red); margin-top: 4px; }
+.no-cases { color: var(--muted); font-size: 13px; padding: 4px 0; }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+  <div id="sidebar-header">
+    <h1>企业真题 · 本地刷题</h1>
+  </div>
+  <div id="company-tabs"></div>
+  <div id="progress-bar-wrap">
+    <div id="progress-label"><span id="progress-text">加载中…</span><span id="progress-frac"></span></div>
+    <div id="progress-track"><div id="progress-fill"></div></div>
+  </div>
+  <div id="plist-wrap">
+    <ul id="plist"></ul>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div id="main">
+  <!-- description -->
+  <div id="desc-pane">
+    <div id="desc-header" style="display:none">
+      <div id="desc-title"></div>
+      <a id="desc-link" target="_blank" rel="noopener">官网 ↗</a>
+    </div>
+    <div id="desc-body">
+      <div id="desc-hint">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/>
+          <line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="15" x2="12" y2="15"/>
+        </svg>
+        <span>从左侧选择题目开始做题</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- editor -->
+  <div id="editor-pane">
+    <div id="toolbar">
+      <button class="btn" id="btn-run" disabled>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        运行判题
+      </button>
+      <button class="btn" id="btn-save" disabled>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+        保存题解
+      </button>
+      <span id="status-msg"></span>
+    </div>
+    <div id="editor-wrap">
+      <textarea id="fallback" style="display:none"></textarea>
+    </div>
+    <div id="result-pane" style="display:none">
+      <div id="result-inner"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js"></script>
+<script>
+const COMPANY_NAMES = {
+  tencent: '腾讯', bytedance: '字节', xiaohongshu: '小红书',
+  huawei: '华为', alibaba: '阿里', jd: '京东',
+  meituan: '美团', kuaishou: '快手', xiaomi: '小米',
+  didi: '滴滴', baidu: '百度', mihoyo: '米哈游', pdd: '拼多多',
+};
+
+let company = null, slug = null, cm = null;
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+
+/* ── editor ── */
+function setupEditor(code) {
+  const wrap = document.getElementById('editor-wrap');
+  if (window.CodeMirror) {
+    if (!cm) {
+      document.getElementById('fallback').style.display = 'none';
+      cm = CodeMirror(el => { wrap.appendChild(el); }, {
+        mode: 'python', lineNumbers: true, indentUnit: 4,
+        tabSize: 4, indentWithTabs: false, autofocus: true,
+        theme: 'default', value: code,
+        extraKeys: { Tab: cm => cm.execCommand('indentMore') },
+      });
+      // make CM fill available height
+      cm.getWrapperElement().style.cssText = 'flex:1;overflow:hidden;';
+    } else {
+      cm.setValue(code);
+    }
+  } else {
+    const fb = document.getElementById('fallback');
+    fb.style.display = 'block';
+    fb.value = code;
+  }
+}
+function getCode() { return cm ? cm.getValue() : document.getElementById('fallback').value; }
+
+/* ── companies ── */
+async function loadCompanies() {
+  const list = await api('/api/companies');
+  const tabsEl = document.getElementById('company-tabs');
+  tabsEl.innerHTML = '';
+  list.forEach((c, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn';
+    btn.textContent = COMPANY_NAMES[c] || c;
+    btn.onclick = () => selectCompany(c, btn);
+    tabsEl.appendChild(btn);
+    if (i === 0) selectCompany(c, btn);
+  });
+}
+
+async function selectCompany(c, btn) {
+  company = c;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const items = await api('/api/problems?company=' + c);
+  renderProblemList(items);
+}
+
+function renderProblemList(items) {
+  const ul = document.getElementById('plist');
+  ul.innerHTML = '';
+  const done = items.filter(i => i.solved).length;
+  const pct = items.length ? Math.round(done / items.length * 100) : 0;
+  document.getElementById('progress-text').textContent = `进度 ${pct}%`;
+  document.getElementById('progress-frac').textContent = `${done}/${items.length}`;
+  document.getElementById('progress-fill').style.width = pct + '%';
+
+  items.forEach(it => {
+    const li = document.createElement('li');
+    const diffCN = { Easy:'简单', Medium:'中等', Hard:'困难', 简单:'简单', 中等:'中等', 困难:'困难' }[it.difficulty] || it.difficulty;
+    li.innerHTML = `
+      <span class="p-id">${it.frontend_id}</span>
+      <span class="p-title">${it.title}</span>
+      <span class="diff-tag d-${diffCN}">${diffCN}</span>
+      ${it.solved ? '<span class="solved-mark">✓</span>' : ''}
+    `;
+    li.onclick = () => selectProblem(it.title_slug, li);
+    ul.appendChild(li);
+  });
+}
+
+/* ── problem ── */
+async function selectProblem(s, li) {
+  slug = s;
+  document.querySelectorAll('#plist li').forEach(x => x.classList.remove('active'));
+  li.classList.add('active');
+
+  document.getElementById('desc-hint') && (document.getElementById('desc-hint').style.display = 'none');
+  const descBody = document.getElementById('desc-body');
+  descBody.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">加载中…</div>';
+
+  const p = await api(`/api/problem?company=${company}&slug=${encodeURIComponent(s)}`);
+
+  // header
+  const hdr = document.getElementById('desc-header');
+  hdr.style.display = 'flex';
+  document.getElementById('desc-title').textContent = `${p.frontend_id}. ${p.title}`;
+  const lnk = document.getElementById('desc-link');
+  lnk.href = p.url || `https://leetcode.cn/problems/${s}/`;
+
+  // body
+  descBody.innerHTML = renderMd(p.content_md)
+    + (!p.has_expected ? `<div style="margin-top:12px;padding:8px 12px;background:rgba(210,153,34,.1);border:1px solid rgba(210,153,34,.3);border-radius:6px;font-size:12px;color:#d29922">⚠ 该题无本地期望输出,判题结果仅供参考</div>` : '');
+
+  setupEditor(p.code);
+  document.getElementById('btn-run').disabled = false;
+  document.getElementById('btn-save').disabled = false;
+  document.getElementById('result-pane').style.display = 'none';
+  document.getElementById('status-msg').textContent = '';
+}
+
+/* ── markdown renderer ── */
+function renderMd(md) {
+  // simple renderer: code blocks, bold, inline code, line breaks
+  let html = md
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/```[\s\S]*?```/g, m => `<pre>${m.slice(3, -3).trim()}</pre>`)
+    .replace(/`([^`]+)`/g, '<code style="background:var(--surface);padding:1px 4px;border-radius:3px;font-family:monospace">$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n{2,}/g, '</p><p>')
+    .replace(/\n/g, '<br>');
+  return `<div style="line-height:1.8;font-size:13.5px"><p>${html}</p></div>`;
+}
+
+/* ── run ── */
+document.getElementById('btn-run').onclick = async () => {
+  const btn = document.getElementById('btn-run');
+  const msg = document.getElementById('status-msg');
+  btn.disabled = true;
+  msg.textContent = '运行中…';
+  try {
+    const r = await api('/api/run', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ company, slug, code: getCode() }),
+    });
+    renderResult(r);
+  } catch(e) {
+    showError(e.message);
+  } finally {
+    btn.disabled = false;
+    msg.textContent = '';
+  }
+};
+
+/* ── save ── */
+document.getElementById('btn-save').onclick = async () => {
+  const msg = document.getElementById('status-msg');
+  try {
+    const r = await api('/api/save', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ company, slug, code: getCode() }),
+    });
+    msg.textContent = r.ok ? '✓ 已保存' : '保存失败: ' + (r.error || '');
+    msg.style.color = r.ok ? 'var(--green)' : 'var(--red)';
+    if (r.ok) {
+      // refresh solved mark
+      document.querySelectorAll('#plist li.active .solved-mark').forEach(e => e.remove());
+      const activeItem = document.querySelector('#plist li.active');
+      if (activeItem && !activeItem.querySelector('.solved-mark')) {
+        const mk = document.createElement('span');
+        mk.className = 'solved-mark'; mk.textContent = '✓';
+        activeItem.appendChild(mk);
+      }
+      setTimeout(() => { msg.textContent = ''; msg.style.color = ''; }, 2000);
+    }
+  } catch(e) {
+    msg.textContent = '保存失败: ' + e.message;
+    msg.style.color = 'var(--red)';
+  }
+};
+
+function showError(msg) {
+  const pane = document.getElementById('result-pane');
+  pane.style.display = 'block';
+  document.getElementById('result-inner').innerHTML =
+    `<div class="verdict wa">⚠ 错误</div><pre style="color:var(--red);font-size:12px">${msg}</pre>`;
+}
+
+function renderResult(r) {
+  const pane = document.getElementById('result-pane');
+  pane.style.display = 'block';
+  if (r.error) { showError(r.error); return; }
+
+  let html = `<div class="verdict ${r.ac ? 'ac' : 'wa'}">${r.ac ? '✅ Accepted' : '❌ Wrong Answer'} <span style="font-weight:400;font-size:13px;color:var(--muted)">(${r.passed}/${r.total} 用例通过)</span></div>`;
+  if (r.total === 0) {
+    html += `<div class="no-cases">该题无本地期望输出,无法自动判题。请在 testcases.json 中手动补充 expected 字段。</div>`;
+  } else {
+    html += `<div class="cases-grid">`;
+    r.cases.forEach((c, i) => {
+      const ok = c.ok;
+      html += `<div class="case-row ${ok ? 'ok' : 'ng'}">
+        <div class="case-label ${ok ? 'ok' : 'ng'}">用例 ${i+1} ${ok ? 'PASS ✓' : 'FAIL ✗'}</div>
+        <div class="case-field">输入: <span>${escHtml(JSON.stringify(c.input))}</span></div>
+        <div class="case-field">期望: <span>${escHtml(JSON.stringify(c.expected))}</span></div>
+        <div class="case-field">实际: <span>${escHtml(JSON.stringify(c.got))}</span></div>
+        ${c.error ? `<div class="case-err">错误: ${escHtml(c.error)}</div>` : ''}
+      </div>`;
+    });
+    html += `</div>`;
+  }
+  document.getElementById('result-inner').innerHTML = html;
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+loadCompanies();
+</script>
+</body>
+</html>

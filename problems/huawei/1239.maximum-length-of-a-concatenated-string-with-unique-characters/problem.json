@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1239",
+  "title": "串联字符串的最大长度",
+  "title_slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+  "meta": {
+    "name": "maxLength",
+    "params": [
+      {
+        "name": "arr",
+        "type": "list<string>"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxLength(self, arr: List[str]) -> int:\n        "
+}

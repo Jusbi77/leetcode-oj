@@ -1,0 +1,9 @@
+{
+  "raw": "\"3[a]2[bc]\"\n\"3[a2[c]]\"\n\"2[abc]3[cd]ef\"",
+  "expected": [
+    "aaabcbc",
+    "accaccacc",
+    "abcabccdcdcdef",
+    "abccdcdcdxyz"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "raw": "\"Let's take LeetCode contest\"\n\"Mr Ding\"",
+  "expected": [
+    "s'teL ekat edoCteeL tsetnoc",
+    "rM gniD"
+  ]
+}

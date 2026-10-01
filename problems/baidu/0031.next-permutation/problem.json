@@ -1,0 +1,23 @@
+{
+  "frontend_id": "31",
+  "title": "下一个排列",
+  "title_slug": "next-permutation",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/next-permutation/",
+  "meta": {
+    "name": "nextPermutation",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def nextPermutation(self, nums: list[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+}

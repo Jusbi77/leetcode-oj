@@ -1,0 +1,28 @@
+{
+  "frontend_id": "97",
+  "title": "交错字符串",
+  "title_slug": "interleaving-string",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/interleaving-string/",
+  "meta": {
+    "name": "isInterleave",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      },
+      {
+        "name": "s3",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:\n        "
+}

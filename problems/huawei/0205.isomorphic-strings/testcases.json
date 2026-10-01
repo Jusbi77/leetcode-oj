@@ -1,0 +1,8 @@
+{
+  "raw": "\"egg\"\n\"add\"\n\"foo\"\n\"bar\"\n\"paper\"\n\"title\"",
+  "expected": [
+    true,
+    false,
+    true
+  ]
+}

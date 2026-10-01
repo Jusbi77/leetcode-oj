@@ -1,0 +1,21 @@
+{
+  "frontend_id": "103",
+  "title": "二叉树的锯齿形层序遍历",
+  "title_slug": "binary-tree-zigzag-level-order-traversal",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/",
+  "meta": {
+    "name": "zigzagLevelOrder",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def zigzagLevelOrder(self, root: TreeNode | None) -> list[list[int]]:\n        "
+}

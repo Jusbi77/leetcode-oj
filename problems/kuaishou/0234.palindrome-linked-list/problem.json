@@ -1,0 +1,20 @@
+{
+  "frontend_id": "234",
+  "title": "回文链表",
+  "title_slug": "palindrome-linked-list",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/palindrome-linked-list/",
+  "meta": {
+    "name": "isPalindrome",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def isPalindrome(self, head: Optional[ListNode]) -> bool:\n        "
+}

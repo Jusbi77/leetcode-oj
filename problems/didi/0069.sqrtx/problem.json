@@ -1,0 +1,20 @@
+{
+  "frontend_id": "69",
+  "title": "x 的平方根 ",
+  "title_slug": "sqrtx",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/sqrtx/",
+  "meta": {
+    "name": "mySqrt",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def mySqrt(self, x: int) -> int:\n        "
+}

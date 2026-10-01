@@ -1,0 +1,8 @@
+{
+  "raw": "\"aabcc\"\n\"dbbca\"\n\"aadbbcbcac\"\n\"aabcc\"\n\"dbbca\"\n\"aadbbbaccc\"\n\"\"\n\"\"\n\"\"",
+  "expected": [
+    true,
+    false,
+    true
+  ]
+}

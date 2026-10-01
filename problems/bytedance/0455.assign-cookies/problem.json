@@ -1,0 +1,24 @@
+{
+  "frontend_id": "455",
+  "title": "分发饼干",
+  "title_slug": "assign-cookies",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/assign-cookies/",
+  "meta": {
+    "name": "findContentChildren",
+    "params": [
+      {
+        "name": "g",
+        "type": "integer[]"
+      },
+      {
+        "name": "s",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findContentChildren(self, g: List[int], s: List[int]) -> int:\n        "
+}

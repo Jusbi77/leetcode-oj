@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1047",
+  "title": "删除字符串中的所有相邻重复项",
+  "title_slug": "remove-all-adjacent-duplicates-in-string",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/",
+  "meta": {
+    "name": "removeDuplicates",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeDuplicates(self, s: str) -> str:\n        "
+}

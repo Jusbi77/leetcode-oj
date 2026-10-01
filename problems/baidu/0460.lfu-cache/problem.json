@@ -1,0 +1,65 @@
+{
+  "frontend_id": "460",
+  "title": "LFU 缓存",
+  "title_slug": "lfu-cache",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/lfu-cache/",
+  "meta": {
+    "classname": "LFUCache",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "capacity"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "name": "get",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "name": "put",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          },
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class LFUCache:\n\n    def __init__(self, capacity: int):\n        \n\n    def get(self, key: int) -> int:\n        \n\n    def put(self, key: int, value: int) -> None:\n        \n\n\n# Your LFUCache object will be instantiated and called as such:\n# obj = LFUCache(capacity)\n# param_1 = obj.get(key)\n# obj.put(key,value)"
+}

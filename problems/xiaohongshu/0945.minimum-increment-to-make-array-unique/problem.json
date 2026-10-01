@@ -1,0 +1,20 @@
+{
+  "frontend_id": "945",
+  "title": "使数组唯一的最小增量",
+  "title_slug": "minimum-increment-to-make-array-unique",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-increment-to-make-array-unique/",
+  "meta": {
+    "name": "minIncrementForUnique",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minIncrementForUnique(self, nums: List[int]) -> int:\n        "
+}

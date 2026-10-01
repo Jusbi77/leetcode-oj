@@ -1,0 +1,8 @@
+{
+  "raw": "\"PAYPALISHIRING\"\n3\n\"PAYPALISHIRING\"\n4\n\"A\"\n1",
+  "expected": [
+    "PAHNAPLSIIGYIR",
+    "PINALSIGYAHRPI",
+    "A"
+  ]
+}

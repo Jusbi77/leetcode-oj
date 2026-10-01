@@ -1,0 +1,10 @@
+{
+  "raw": "\"bbaababbba\"\n\"bbabbbbbaaba\"\n\"abaaaaabbbbbaa\"",
+  "expected": [
+    3,
+    6,
+    4,
+    5,
+    1
+  ]
+}

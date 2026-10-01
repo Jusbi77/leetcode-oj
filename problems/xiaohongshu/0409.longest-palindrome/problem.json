@@ -1,0 +1,20 @@
+{
+  "frontend_id": "409",
+  "title": "最长回文串",
+  "title_slug": "longest-palindrome",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/longest-palindrome/",
+  "meta": {
+    "name": "longestPalindrome",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def longestPalindrome(self, s: str) -> int:\n        "
+}

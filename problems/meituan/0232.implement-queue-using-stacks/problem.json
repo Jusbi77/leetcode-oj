@@ -1,0 +1,53 @@
+{
+  "frontend_id": "232",
+  "title": "用栈实现队列",
+  "title_slug": "implement-queue-using-stacks",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/implement-queue-using-stacks/",
+  "meta": {
+    "classname": "MyQueue",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "x"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "name": "push"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "pop"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "peek"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "empty"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MyQueue:\n\n    def __init__(self):\n        \n\n    def push(self, x: int) -> None:\n        \n\n    def pop(self) -> int:\n        \n\n    def peek(self) -> int:\n        \n\n    def empty(self) -> bool:\n        \n\n\n# Your MyQueue object will be instantiated and called as such:\n# obj = MyQueue()\n# obj.push(x)\n# param_2 = obj.pop()\n# param_3 = obj.peek()\n# param_4 = obj.empty()"
+}

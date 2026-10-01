@@ -1,0 +1,24 @@
+{
+  "frontend_id": "347",
+  "title": "前 K 个高频元素",
+  "title_slug": "top-k-frequent-elements",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/top-k-frequent-elements/",
+  "meta": {
+    "name": "topKFrequent",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def topKFrequent(self, nums: list[int], k: int) -> list[int]:\n        "
+}

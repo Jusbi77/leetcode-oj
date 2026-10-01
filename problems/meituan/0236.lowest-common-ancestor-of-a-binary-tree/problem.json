@@ -1,0 +1,29 @@
+{
+  "frontend_id": "236",
+  "title": "二叉树的最近公共祖先",
+  "title_slug": "lowest-common-ancestor-of-a-binary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/",
+  "meta": {
+    "name": "lowestCommonAncestor",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "p",
+        "type": "integer"
+      },
+      {
+        "name": "q",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    },
+    "manual": true
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':\n        "
+}

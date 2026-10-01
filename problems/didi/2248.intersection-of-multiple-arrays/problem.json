@@ -1,0 +1,20 @@
+{
+  "frontend_id": "2248",
+  "title": "多个数组求交集",
+  "title_slug": "intersection-of-multiple-arrays",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/intersection-of-multiple-arrays/",
+  "meta": {
+    "name": "intersection",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def intersection(self, nums: List[List[int]]) -> List[int]:\n        "
+}

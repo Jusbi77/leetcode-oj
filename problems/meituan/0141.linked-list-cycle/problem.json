@@ -1,0 +1,41 @@
+{
+  "frontend_id": "141",
+  "title": "环形链表",
+  "title_slug": "linked-list-cycle",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/linked-list-cycle/",
+  "meta": {
+    "name": "hasCycle",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "pos",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "c",
+      "csharp",
+      "javascript",
+      "ruby",
+      "swift",
+      "golang",
+      "python3",
+      "scala",
+      "kotlin",
+      "php",
+      "typescript"
+    ]
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\n        "
+}

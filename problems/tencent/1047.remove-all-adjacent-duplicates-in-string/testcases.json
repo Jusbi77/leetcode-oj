@@ -1,0 +1,7 @@
+{
+  "raw": "\"abbaca\"\n\"azxxzy\"",
+  "expected": [
+    "ca",
+    "ay"
+  ]
+}

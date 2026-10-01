@@ -1,0 +1,20 @@
+{
+  "frontend_id": "279",
+  "title": "完全平方数",
+  "title_slug": "perfect-squares",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/perfect-squares/",
+  "meta": {
+    "name": "numSquares",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numSquares(self, n: int) -> int:\n        "
+}

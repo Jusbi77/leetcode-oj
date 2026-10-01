@@ -1,0 +1,23 @@
+{
+  "frontend_id": "99",
+  "title": "恢复二叉搜索树",
+  "title_slug": "recover-binary-search-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/recover-binary-search-tree/",
+  "meta": {
+    "name": "recoverTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def recoverTree(self, root: TreeNode | None) -> None:\n        \"\"\"\n        Do not return anything, modify root in-place instead.\n        \"\"\"\n        "
+}

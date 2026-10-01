@@ -1,0 +1,21 @@
+{
+  "frontend_id": "108",
+  "title": "将有序数组转换为二叉搜索树",
+  "title_slug": "convert-sorted-array-to-binary-search-tree",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/",
+  "meta": {
+    "name": "sortedArrayToBST",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "TreeNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def sortedArrayToBST(self, nums: list[int]) -> TreeNode | None:\n        "
+}

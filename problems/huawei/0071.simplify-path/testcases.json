@@ -1,0 +1,10 @@
+{
+  "raw": "\"/home/\"\n\"/home//foo/\"\n\"/home/user/Documents/../Pictures\"\n\"/../\"\n\"/.../a/../b/c/../d/./\"",
+  "expected": [
+    "/home",
+    "/home/foo",
+    "/home/user/Pictures",
+    "/",
+    "/.../b/d"
+  ]
+}
