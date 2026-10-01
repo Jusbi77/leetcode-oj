@@ -1,0 +1,24 @@
+{
+  "frontend_id": "644",
+  "title": "子数组最大平均数 II",
+  "title_slug": "maximum-average-subarray-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximum-average-subarray-ii/",
+  "meta": {
+    "name": "findMaxAverage",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findMaxAverage(self, nums: list[int], k: int) -> float:\n        "
+}

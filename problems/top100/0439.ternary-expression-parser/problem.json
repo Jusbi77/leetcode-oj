@@ -1,0 +1,20 @@
+{
+  "frontend_id": "439",
+  "title": "三元表达式解析器",
+  "title_slug": "ternary-expression-parser",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/ternary-expression-parser/",
+  "meta": {
+    "name": "parseTernary",
+    "params": [
+      {
+        "name": "expression",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def parseTernary(self, expression: str) -> str:\n        "
+}

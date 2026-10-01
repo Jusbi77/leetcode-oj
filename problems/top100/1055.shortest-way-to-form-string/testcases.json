@@ -1,0 +1,8 @@
+{
+  "raw": "\"abc\"\n\"abcbc\"\n\"abc\"\n\"acdbc\"\n\"xyz\"\n\"xzyxz\"",
+  "expected": [
+    2,
+    -1,
+    3
+  ]
+}

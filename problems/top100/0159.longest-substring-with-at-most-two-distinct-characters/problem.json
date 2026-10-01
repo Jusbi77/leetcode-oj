@@ -1,0 +1,20 @@
+{
+  "frontend_id": "159",
+  "title": "至多包含两个不同字符的最长子串",
+  "title_slug": "longest-substring-with-at-most-two-distinct-characters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-substring-with-at-most-two-distinct-characters/",
+  "meta": {
+    "name": "lengthOfLongestSubstringTwoDistinct",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:\n        "
+}

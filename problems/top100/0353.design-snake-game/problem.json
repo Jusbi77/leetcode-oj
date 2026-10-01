@@ -1,0 +1,46 @@
+{
+  "frontend_id": "353",
+  "title": "贪吃蛇",
+  "title_slug": "design-snake-game",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/design-snake-game/",
+  "meta": {
+    "classname": "SnakeGame",
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "width"
+        },
+        {
+          "type": "integer",
+          "name": "height"
+        },
+        {
+          "type": "integer[][]",
+          "name": "food"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "direction"
+          }
+        ],
+        "name": "move",
+        "return": {
+          "type": "integer"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true,
+    "manual": true
+  },
+  "code_snippet": "class SnakeGame:\n\n    def __init__(self, width: int, height: int, food: List[List[int]]):\n        \n\n    def move(self, direction: str) -> int:\n        \n\n\n# Your SnakeGame object will be instantiated and called as such:\n# obj = SnakeGame(width, height, food)\n# param_1 = obj.move(direction)"
+}

@@ -1,0 +1,28 @@
+{
+  "frontend_id": "490",
+  "title": "迷宫",
+  "title_slug": "the-maze",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/the-maze/",
+  "meta": {
+    "name": "hasPath",
+    "params": [
+      {
+        "name": "maze",
+        "type": "integer[][]"
+      },
+      {
+        "name": "start",
+        "type": "integer[]"
+      },
+      {
+        "name": "destination",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def hasPath(self, maze: list[list[int]], start: list[int], destination: list[int]) -> bool:\n        "
+}

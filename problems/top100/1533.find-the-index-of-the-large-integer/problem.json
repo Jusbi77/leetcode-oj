@@ -1,0 +1,21 @@
+{
+  "frontend_id": "1533",
+  "title": "找到最大整数的索引",
+  "title_slug": "find-the-index-of-the-large-integer",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-the-index-of-the-large-integer/",
+  "meta": {
+    "name": "getIndex",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true
+  },
+  "code_snippet": "# \"\"\"\n# This is ArrayReader's API interface.\n# You should not implement it, or speculate about its implementation\n# \"\"\"\n#class ArrayReader(object):\n#\t # Compares the sum of arr[l..r] with the sum of arr[x..y]\n#\t # return 1 if sum(arr[l..r]) > sum(arr[x..y])\n#\t # return 0 if sum(arr[l..r]) == sum(arr[x..y])\n#\t # return -1 if sum(arr[l..r]) < sum(arr[x..y])\n#    def compareSub(self, l: int, r: int, x: int, y: int) -> int:\n#\n#\t # Returns the length of the array\n#    def length(self) -> int:\n#\n\n\nclass Solution:\n    def getIndex(self, reader: 'ArrayReader') -> int:\n        "
+}

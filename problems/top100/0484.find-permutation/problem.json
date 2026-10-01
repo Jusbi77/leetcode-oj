@@ -1,0 +1,20 @@
+{
+  "frontend_id": "484",
+  "title": "寻找排列",
+  "title_slug": "find-permutation",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-permutation/",
+  "meta": {
+    "name": "findPermutation",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findPermutation(self, s: str) -> list[int]:\n        "
+}

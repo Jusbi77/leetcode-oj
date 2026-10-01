@@ -1,0 +1,12 @@
+{
+  "raw": "[\"Hello\",\"World\"]\n[\"\"]",
+  "expected": [
+    [
+      "Hello",
+      "World"
+    ],
+    [
+      ""
+    ]
+  ]
+}

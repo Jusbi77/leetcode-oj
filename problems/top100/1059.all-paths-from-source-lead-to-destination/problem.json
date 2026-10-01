@@ -1,0 +1,32 @@
+{
+  "frontend_id": "1059",
+  "title": "从起点到终点的所有路径",
+  "title_slug": "all-paths-from-source-lead-to-destination",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/all-paths-from-source-lead-to-destination/",
+  "meta": {
+    "name": "leadsToDestination",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      },
+      {
+        "name": "source",
+        "type": "integer"
+      },
+      {
+        "name": "destination",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def leadsToDestination(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:\n        "
+}

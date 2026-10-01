@@ -1,0 +1,20 @@
+{
+  "frontend_id": "256",
+  "title": "粉刷房子",
+  "title_slug": "paint-house",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/paint-house/",
+  "meta": {
+    "name": "minCost",
+    "params": [
+      {
+        "name": "costs",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minCost(self, costs: list[list[int]]) -> int:\n        "
+}

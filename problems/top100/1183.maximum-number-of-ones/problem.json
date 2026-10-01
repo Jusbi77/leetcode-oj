@@ -1,0 +1,32 @@
+{
+  "frontend_id": "1183",
+  "title": "矩阵中 1 的最大数量",
+  "title_slug": "maximum-number-of-ones",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximum-number-of-ones/",
+  "meta": {
+    "name": "maximumNumberOfOnes",
+    "params": [
+      {
+        "name": "width",
+        "type": "integer"
+      },
+      {
+        "name": "height",
+        "type": "integer"
+      },
+      {
+        "name": "sideLength",
+        "type": "integer"
+      },
+      {
+        "name": "maxOnes",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maximumNumberOfOnes(self, width: int, height: int, sideLength: int, maxOnes: int) -> int:\n        "
+}

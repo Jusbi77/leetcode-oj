@@ -1,0 +1,28 @@
+{
+  "frontend_id": "505",
+  "title": "迷宫 II",
+  "title_slug": "the-maze-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/the-maze-ii/",
+  "meta": {
+    "name": "shortestDistance",
+    "params": [
+      {
+        "name": "maze",
+        "type": "integer[][]"
+      },
+      {
+        "name": "start",
+        "type": "integer[]"
+      },
+      {
+        "name": "destination",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def shortestDistance(self, maze: list[list[int]], start: list[int], destination: list[int]) -> int:\n        "
+}

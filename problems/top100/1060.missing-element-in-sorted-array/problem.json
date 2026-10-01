@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1060",
+  "title": "有序数组中的缺失元素",
+  "title_slug": "missing-element-in-sorted-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/missing-element-in-sorted-array/",
+  "meta": {
+    "name": "missingElement",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def missingElement(self, nums: List[int], k: int) -> int:\n        "
+}

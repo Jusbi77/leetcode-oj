@@ -1,0 +1,28 @@
+{
+  "frontend_id": "734",
+  "title": "句子相似性",
+  "title_slug": "sentence-similarity",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/sentence-similarity/",
+  "meta": {
+    "name": "areSentencesSimilar",
+    "params": [
+      {
+        "name": "sentence1",
+        "type": "string[]"
+      },
+      {
+        "name": "sentence2",
+        "type": "string[]"
+      },
+      {
+        "name": "similarPairs",
+        "type": "list<list<string>>"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def areSentencesSimilar(self, sentence1: list[str], sentence2: list[str], similarPairs: list[list[str]]) -> bool:\n        "
+}

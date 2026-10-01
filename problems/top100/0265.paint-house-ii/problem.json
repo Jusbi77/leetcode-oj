@@ -1,0 +1,20 @@
+{
+  "frontend_id": "265",
+  "title": "粉刷房子 II",
+  "title_slug": "paint-house-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/paint-house-ii/",
+  "meta": {
+    "name": "minCostII",
+    "params": [
+      {
+        "name": "costs",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minCostII(self, costs: list[list[int]]) -> int:\n        "
+}

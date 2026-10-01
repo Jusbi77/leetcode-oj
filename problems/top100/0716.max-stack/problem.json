@@ -1,0 +1,60 @@
+{
+  "frontend_id": "716",
+  "title": "最大栈",
+  "title_slug": "max-stack",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/max-stack/",
+  "meta": {
+    "classname": "MaxStack",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "x"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "name": "push"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "pop"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "top"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "peekMax"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "popMax"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MaxStack:\n\n    def __init__(self):\n        \n\n    def push(self, x: int) -> None:\n        \n\n    def pop(self) -> int:\n        \n\n    def top(self) -> int:\n        \n\n    def peekMax(self) -> int:\n        \n\n    def popMax(self) -> int:\n        \n\n\n# Your MaxStack object will be instantiated and called as such:\n# obj = MaxStack()\n# obj.push(x)\n# param_2 = obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.peekMax()\n# param_5 = obj.popMax()"
+}

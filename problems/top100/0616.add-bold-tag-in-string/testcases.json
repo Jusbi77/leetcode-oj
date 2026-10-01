@@ -1,0 +1,7 @@
+{
+  "raw": "\"abcxyz123\"\n[\"abc\",\"123\"]\n\"aaabbb\"\n[\"aa\",\"b\"]",
+  "expected": [
+    "<b>abc</b>xyz<b>123</b>",
+    "<b>aaabbb</b>"
+  ]
+}

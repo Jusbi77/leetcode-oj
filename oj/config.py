@@ -23,6 +23,7 @@ PLANS = {
     "mihoyo":      {"slug": "mihoyo-2023-fall-sprint",      "name": "米哈游秋招面试题通关"},
     "pdd":         {"slug": "pdd-2023-fall-sprint",         "name": "拼多多秋招备战方略"},
     "dp":          {"slug": "dynamic-programming-grandmaster", "name": "动态规划（进阶版）"},
+    "top100":      {"slug": "premium-algo-100",               "name": "尊享面试 100 题"},
 }
 
 

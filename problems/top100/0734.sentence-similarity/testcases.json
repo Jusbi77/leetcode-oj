@@ -1,0 +1,8 @@
+{
+  "raw": "[\"great\",\"acting\",\"skills\"]\n[\"fine\",\"drama\",\"talent\"]\n[[\"great\",\"fine\"],[\"drama\",\"acting\"],[\"skills\",\"talent\"]]\n[\"great\"]\n[\"great\"]\n[]\n[\"great\"]\n[\"doubleplus\",\"good\"]\n[[\"great\",\"doubleplus\"]]",
+  "expected": [
+    true,
+    true,
+    false
+  ]
+}

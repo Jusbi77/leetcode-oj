@@ -1,0 +1,14 @@
+{
+  "raw": "\"{a,b}c{d,e}f\"\n\"abcd\"",
+  "expected": [
+    [
+      "acdf",
+      "acef",
+      "bcdf",
+      "bcef"
+    ],
+    [
+      "abcd"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "694",
+  "title": "不同岛屿的数量",
+  "title_slug": "number-of-distinct-islands",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/number-of-distinct-islands/",
+  "meta": {
+    "name": "numDistinctIslands",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numDistinctIslands(self, grid: list[list[int]]) -> int:\n        "
+}

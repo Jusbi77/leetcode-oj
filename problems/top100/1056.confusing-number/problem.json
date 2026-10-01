@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1056",
+  "title": "易混淆数",
+  "title_slug": "confusing-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/confusing-number/",
+  "meta": {
+    "name": "confusingNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def confusingNumber(self, n: int) -> bool:\n        "
+}

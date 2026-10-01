@@ -1,0 +1,45 @@
+{
+  "frontend_id": "1429",
+  "title": "第一个唯一数字",
+  "title_slug": "first-unique-number",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/first-unique-number/",
+  "meta": {
+    "classname": "FirstUnique",
+    "constructor": {
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [],
+        "name": "showFirstUnique",
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "name": "add",
+        "return": {
+          "type": "void"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true,
+    "manual": false
+  },
+  "code_snippet": "class FirstUnique:\n\n    def __init__(self, nums: list[int]):\n        \n\n    def showFirstUnique(self) -> int:\n        \n\n    def add(self, value: int) -> None:\n        \n\n\n# Your FirstUnique object will be instantiated and called as such:\n# obj = FirstUnique(nums)\n# param_1 = obj.showFirstUnique()\n# obj.add(value)"
+}

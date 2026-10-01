@@ -1,0 +1,22 @@
+{
+  "frontend_id": "277",
+  "title": "搜寻名人",
+  "title_slug": "find-the-celebrity",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-the-celebrity/",
+  "meta": {
+    "name": "findCelebrity",
+    "params": [
+      {
+        "name": "graph",
+        "type": "integer[][]",
+        "internal": true
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true
+  },
+  "code_snippet": "# The knows API is already defined for you.\n# return a bool, whether a knows b\n# def knows(a: int, b: int) -> bool:\n\nclass Solution:\n    def findCelebrity(self, n: int) -> int:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "250",
+  "title": "统计同值子树",
+  "title_slug": "count-univalue-subtrees",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/count-univalue-subtrees/",
+  "meta": {
+    "name": "countUnivalSubtrees",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def countUnivalSubtrees(self, root: Optional[TreeNode]) -> int:\n        "
+}

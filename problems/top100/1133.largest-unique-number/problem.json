@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1133",
+  "title": "最大唯一数",
+  "title_slug": "largest-unique-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/largest-unique-number/",
+  "meta": {
+    "name": "largestUniqueNumber",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def largestUniqueNumber(self, nums: list[int]) -> int:\n        "
+}

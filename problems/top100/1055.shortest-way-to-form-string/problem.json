@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1055",
+  "title": "形成字符串的最短路径",
+  "title_slug": "shortest-way-to-form-string",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/shortest-way-to-form-string/",
+  "meta": {
+    "name": "shortestWay",
+    "params": [
+      {
+        "name": "source",
+        "type": "string"
+      },
+      {
+        "name": "target",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def shortestWay(self, source: str, target: str) -> int:\n        "
+}

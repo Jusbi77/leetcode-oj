@@ -1,0 +1,20 @@
+{
+  "frontend_id": "333",
+  "title": "最大二叉搜索子树",
+  "title_slug": "largest-bst-subtree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/largest-bst-subtree/",
+  "meta": {
+    "name": "largestBSTSubtree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def largestBSTSubtree(self, root: TreeNode | None) -> int:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1180",
+  "title": "统计只含单一字母的子串",
+  "title_slug": "count-substrings-with-only-one-distinct-letter",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/count-substrings-with-only-one-distinct-letter/",
+  "meta": {
+    "name": "countLetters",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def countLetters(self, s: str) -> int:\n        "
+}

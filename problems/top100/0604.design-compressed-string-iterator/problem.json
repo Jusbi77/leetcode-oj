@@ -1,0 +1,51 @@
+{
+  "frontend_id": "604",
+  "title": "迭代压缩字符串",
+  "title_slug": "design-compressed-string-iterator",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/design-compressed-string-iterator/",
+  "meta": {
+    "classname": "StringIterator",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": [
+        {
+          "type": "string",
+          "name": "compressedString"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "name": "next",
+        "params": [],
+        "return": {
+          "type": "character"
+        }
+      },
+      {
+        "name": "hasNext",
+        "params": [],
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class StringIterator:\n\n    def __init__(self, compressedString: str):\n        \n\n    def next(self) -> str:\n        \n\n    def hasNext(self) -> bool:\n        \n\n\n# Your StringIterator object will be instantiated and called as such:\n# obj = StringIterator(compressedString)\n# param_1 = obj.next()\n# param_2 = obj.hasNext()"
+}

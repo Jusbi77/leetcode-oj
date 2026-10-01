@@ -1,0 +1,37 @@
+{
+  "frontend_id": "428",
+  "title": "序列化和反序列化 N 叉树",
+  "title_slug": "serialize-and-deserialize-n-ary-tree",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/serialize-and-deserialize-n-ary-tree/",
+  "meta": {
+    "name": "CodecDriver",
+    "params": [
+      {
+        "name": "root",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "golang",
+      "kotlin",
+      "ruby",
+      "scala",
+      "php",
+      "swift",
+      "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    children: _Node[]\n    \n    constructor(v: number) {\n        this.val = v;\n        this.children = [];\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node(object):\n    def __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        if children is None:\n            children = []\n        self.val = val\n        self.children = children\n\"\"\"\n\nclass Codec:\n    def serialize(self, root: 'Node') -> str:\n        \"\"\"Encodes a tree to a single string.\n        \n        :type root: Node\n        :rtype: str\n        \"\"\"\n        \n\t\n    def deserialize(self, data: str) -> 'Node':\n        \"\"\"Decodes your encoded data to tree.\n        \n        :type data: str\n        :rtype: Node\n        \"\"\"\n        \n\n# Your Codec object will be instantiated and called as such:\n# codec = Codec()\n# codec.deserialize(codec.serialize(root))"
+}

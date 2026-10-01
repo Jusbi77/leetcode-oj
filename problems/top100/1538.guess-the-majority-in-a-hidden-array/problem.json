@@ -1,0 +1,21 @@
+{
+  "frontend_id": "1538",
+  "title": "找出隐藏数组中出现次数最多的元素",
+  "title_slug": "guess-the-majority-in-a-hidden-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/guess-the-majority-in-a-hidden-array/",
+  "meta": {
+    "name": "guessMajority",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true
+  },
+  "code_snippet": "# \"\"\"\n# This is the ArrayReader's API interface.\n# You should not implement it, or speculate about its implementation\n# \"\"\"\n#class ArrayReader(object):\n#\t # Compares 4 different elements in the array\n#\t # return 4 if the values of the 4 elements are the same (0 or 1).\n#\t # return 2 if three elements have a value equal to 0 and one element has value equal to 1 or vice versa.\n#\t # return 0 : if two element have a value equal to 0 and two elements have a value equal to 1.\n#    def query(self, a: int, b: int, c: int, d: int) -> int:\n#\n#\t # Returns the length of the array\n#    def length(self) -> int:\n#\n\nclass Solution:\n    def guessMajority(self, reader: 'ArrayReader') -> int:"
+}

@@ -1,0 +1,45 @@
+{
+  "frontend_id": "1236",
+  "title": "网络爬虫",
+  "title_slug": "web-crawler",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/web-crawler/",
+  "meta": {
+    "name": "crawl",
+    "params": [
+      {
+        "name": "urls",
+        "type": "string[]"
+      },
+      {
+        "type": "integer[][]",
+        "name": "edges"
+      },
+      {
+        "type": "string",
+        "name": "startUrl"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "python3",
+      "javascript",
+      "kotlin",
+      "ruby",
+      "scala",
+      "swift",
+      "php",
+      "golang",
+      "typescript"
+    ],
+    "typescriptCustomType": "class HtmlParser {\n    maps: Map<string, number>;\n    urls: string[];\n    a: Map<number, number[]>;\n    \n    constructor(urlLib: string[], edges: number[][]) {\n        this.maps = new Map<string, number>();\n        this.urls = urlLib;\n        this.a = new Map<number, number[]>()\n        for (let i = 0; i < urlLib.length; i++) {\n            this.maps.set(urlLib[i], i)\n        }\n        \n        for (let i = 0; i < edges.length; i++) {\n            if(this.a.get(edges[i][0]) == null ){\n                var t: number[] = [];\n                t.push(edges[i][1]);\n                this.a.set(edges[i][0],t) ;\n            }\n            else{\n                var t = this.a.get(edges[i][0])!;\n                t.push(edges[i][1]);\n                this.a.set(edges[i][0],t);\n            }\n        }\n    }\n\n    getUrls(url: string): string[] {\n        var ans: string[] = []\n        if(this.maps.get(url) == undefined) return ans;\n        var cur = this.maps.get(url)!;\n\n        if(this.a.get(cur) == undefined) return ans;\n        var urlList = this.a.get(cur)!;\n\n        for(let i=0; i < urlList.length; i++){\n            ans.push(this.urls[urlList[i]]);\n        }\n\n        return ans;\n    }\n};\n"
+  },
+  "code_snippet": "# \"\"\"\n# This is HtmlParser's API interface.\n# You should not implement it, or speculate about its implementation\n# \"\"\"\n#class HtmlParser(object):\n#    def getUrls(self, url):\n#        \"\"\"\n#        :type url: str\n#        :rtype List[str]\n#        \"\"\"\n\nclass Solution:\n    def crawl(self, startUrl: str, htmlParser: 'HtmlParser') -> List[str]:\n        "
+}

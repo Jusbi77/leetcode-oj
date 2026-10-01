@@ -1,0 +1,17 @@
+{
+  "raw": "[\"StringIterator\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"hasNext\",\"next\",\"hasNext\"]\n[[\"L1e2t1C1o1d1e1\"],[],[],[],[],[],[],[],[],[]]",
+  "expected": [
+    [
+      null,
+      "L",
+      "e",
+      "e",
+      "t",
+      "C",
+      "o",
+      true,
+      "d",
+      true
+    ]
+  ]
+}

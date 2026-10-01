@@ -1,0 +1,8 @@
+{
+  "raw": "\"code\"\n\"aab\"\n\"carerac\"",
+  "expected": [
+    false,
+    true,
+    true
+  ]
+}

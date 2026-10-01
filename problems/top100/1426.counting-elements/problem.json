@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1426",
+  "title": "数元素",
+  "title_slug": "counting-elements",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/counting-elements/",
+  "meta": {
+    "name": "countElements",
+    "params": [
+      {
+        "name": "arr",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def countElements(self, arr: list[int]) -> int:\n        "
+}

@@ -1,0 +1,28 @@
+{
+  "frontend_id": "163",
+  "title": "缺失的区间",
+  "title_slug": "missing-ranges",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/missing-ranges/",
+  "meta": {
+    "name": "findMissingRanges",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "lower",
+        "type": "integer"
+      },
+      {
+        "name": "upper",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[List[int]]:\n        "
+}

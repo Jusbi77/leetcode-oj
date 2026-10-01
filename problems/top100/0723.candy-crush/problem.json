@@ -1,0 +1,20 @@
+{
+  "frontend_id": "723",
+  "title": "粉碎糖果",
+  "title_slug": "candy-crush",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/candy-crush/",
+  "meta": {
+    "name": "candyCrush",
+    "params": [
+      {
+        "name": "board",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[][]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def candyCrush(self, board: list[list[int]]) -> list[list[int]]:\n        "
+}

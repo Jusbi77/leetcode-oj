@@ -1,0 +1,21 @@
+{
+  "frontend_id": "366",
+  "title": "寻找二叉树的叶子节点",
+  "title_slug": "find-leaves-of-binary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-leaves-of-binary-tree/",
+  "meta": {
+    "name": "findLeaves",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def findLeaves(self, root: TreeNode | None) -> list[list[int]]:\n        "
+}

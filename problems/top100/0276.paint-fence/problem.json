@@ -1,0 +1,24 @@
+{
+  "frontend_id": "276",
+  "title": "栅栏涂色",
+  "title_slug": "paint-fence",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/paint-fence/",
+  "meta": {
+    "name": "numWays",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numWays(self, n: int, k: int) -> int:\n        "
+}

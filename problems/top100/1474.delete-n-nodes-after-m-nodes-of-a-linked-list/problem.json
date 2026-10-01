@@ -1,0 +1,28 @@
+{
+  "frontend_id": "1474",
+  "title": "删除链表 M 个节点之后的 N 个节点",
+  "title_slug": "delete-n-nodes-after-m-nodes-of-a-linked-list",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/",
+  "meta": {
+    "name": "deleteNodes",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "type": "integer",
+        "name": "m"
+      },
+      {
+        "type": "integer",
+        "name": "n"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def deleteNodes(self, head: ListNode | None, m: int, n: int) -> ListNode | None:\n        "
+}

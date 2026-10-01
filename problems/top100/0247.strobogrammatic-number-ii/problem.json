@@ -1,0 +1,20 @@
+{
+  "frontend_id": "247",
+  "title": "中心对称数 II",
+  "title_slug": "strobogrammatic-number-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/strobogrammatic-number-ii/",
+  "meta": {
+    "name": "findStrobogrammatic",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findStrobogrammatic(self, n: int) -> List[str]:\n        "
+}

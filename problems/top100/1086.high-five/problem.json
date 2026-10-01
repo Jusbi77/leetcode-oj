@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1086",
+  "title": "前五科的均分",
+  "title_slug": "high-five",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/high-five/",
+  "meta": {
+    "name": "highFive",
+    "params": [
+      {
+        "name": "items",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[][]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def highFive(self, items: List[List[int]]) -> List[List[int]]:\n        "
+}

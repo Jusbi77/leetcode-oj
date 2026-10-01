@@ -1,0 +1,24 @@
+{
+  "frontend_id": "616",
+  "title": "给字符串添加加粗标签",
+  "title_slug": "add-bold-tag-in-string",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/add-bold-tag-in-string/",
+  "meta": {
+    "name": "addBoldTag",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def addBoldTag(self, s: str, words: list[str]) -> str:\n        "
+}

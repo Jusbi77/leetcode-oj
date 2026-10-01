@@ -1,0 +1,20 @@
+{
+  "frontend_id": "317",
+  "title": "离建筑物最近的距离",
+  "title_slug": "shortest-distance-from-all-buildings",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/shortest-distance-from-all-buildings/",
+  "meta": {
+    "name": "shortestDistance",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def shortestDistance(self, grid: list[list[int]]) -> int:\n        "
+}

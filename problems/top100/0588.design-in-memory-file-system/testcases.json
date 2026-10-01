@@ -1,0 +1,15 @@
+{
+  "raw": "[\"FileSystem\",\"ls\",\"mkdir\",\"addContentToFile\",\"ls\",\"readContentFromFile\"]\n[[],[\"/\"],[\"/a/b/c\"],[\"/a/b/c/d\",\"hello\"],[\"/\"],[\"/a/b/c/d\"]]",
+  "expected": [
+    [
+      null,
+      [],
+      null,
+      null,
+      [
+        "a"
+      ],
+      "hello"
+    ]
+  ]
+}

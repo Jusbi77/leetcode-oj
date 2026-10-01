@@ -1,0 +1,38 @@
+{
+  "frontend_id": "1522",
+  "title": "N 叉树的直径",
+  "title_slug": "diameter-of-n-ary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/diameter-of-n-ary-tree/",
+  "meta": {
+    "name": "diameter",
+    "params": [
+      {
+        "name": "root",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "typescript",
+      "php",
+      "golang",
+      "scala",
+      "kotlin",
+      "ruby",
+      "swift",
+      "c"
+    ],
+    "typescriptCustomType": "class _Node {\n    val: number\n    children: _Node[]\n\n    constructor(val?: number, children?: _Node[]) {\n        this.val = (val===undefined ? 0 : val)\n        this.children = (children===undefined ? [] : children)\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        self.val = val\n        self.children = children if children is not None else []\n\"\"\"\n\nclass Solution:\n    def diameter(self, root: 'Node') -> int:\n        \"\"\"\n        :type root: 'Node'\n        :rtype: int\n        \"\"\""
+}

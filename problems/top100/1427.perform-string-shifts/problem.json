@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1427",
+  "title": "字符串的左右移",
+  "title_slug": "perform-string-shifts",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/perform-string-shifts/",
+  "meta": {
+    "name": "stringShift",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "type": "integer[][]",
+        "name": "shift"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def stringShift(self, s: str, shift: List[List[int]]) -> str:\n        "
+}

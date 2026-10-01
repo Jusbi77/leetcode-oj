@@ -1,0 +1,24 @@
+{
+  "frontend_id": "760",
+  "title": "找出变位映射",
+  "title_slug": "find-anagram-mappings",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/find-anagram-mappings/",
+  "meta": {
+    "name": "anagramMappings",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def anagramMappings(self, nums1: list[int], nums2: list[int]) -> list[int]:\n        "
+}

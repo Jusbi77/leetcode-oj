@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1198",
+  "title": "找出所有行中最小公共元素",
+  "title_slug": "find-smallest-common-element-in-all-rows",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-smallest-common-element-in-all-rows/",
+  "meta": {
+    "name": "smallestCommonElement",
+    "params": [
+      {
+        "name": "mat",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def smallestCommonElement(self, mat: list[list[int]]) -> int:\n        "
+}

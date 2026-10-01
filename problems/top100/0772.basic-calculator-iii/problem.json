@@ -1,0 +1,20 @@
+{
+  "frontend_id": "772",
+  "title": "基本计算器 III",
+  "title_slug": "basic-calculator-iii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/basic-calculator-iii/",
+  "meta": {
+    "name": "calculate",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def calculate(self, s: str) -> int:\n        "
+}

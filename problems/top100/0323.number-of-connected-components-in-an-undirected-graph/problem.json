@@ -1,0 +1,24 @@
+{
+  "frontend_id": "323",
+  "title": "无向图中连通分量的数目",
+  "title_slug": "number-of-connected-components-in-an-undirected-graph",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/number-of-connected-components-in-an-undirected-graph/",
+  "meta": {
+    "name": "countComponents",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def countComponents(self, n: int, edges: list[list[int]]) -> int:\n        "
+}

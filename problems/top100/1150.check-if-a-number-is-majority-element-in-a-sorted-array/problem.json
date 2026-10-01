@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1150",
+  "title": "检查一个数是否在数组中占绝大多数",
+  "title_slug": "check-if-a-number-is-majority-element-in-a-sorted-array",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
+  "meta": {
+    "name": "isMajorityElement",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isMajorityElement(self, nums: list[int], target: int) -> bool:\n        "
+}

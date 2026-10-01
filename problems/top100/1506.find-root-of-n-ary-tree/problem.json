@@ -1,0 +1,37 @@
+{
+  "frontend_id": "1506",
+  "title": "找到 N 叉树的根节点",
+  "title_slug": "find-root-of-n-ary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-root-of-n-ary-tree/",
+  "meta": {
+    "name": "findRoot",
+    "params": [
+      {
+        "name": "tree",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "javascript",
+      "python3",
+      "csharp",
+      "typescript",
+      "ruby",
+      "swift",
+      "golang",
+      "scala",
+      "kotlin",
+      "php"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    children: _Node[]\n\n    constructor(val?: number, children?: _Node[]) {\n        this.val = (val===undefined ? 0 : val)\n        this.children = (children===undefined ? [] : children)\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        self.val = val\n        self.children = children if children is not None else []\n\"\"\"\n\nclass Solution:\n    def findRoot(self, tree: List['Node']) -> 'Node':\n        "
+}

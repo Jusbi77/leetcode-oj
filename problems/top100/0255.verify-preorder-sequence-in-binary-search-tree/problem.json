@@ -1,0 +1,20 @@
+{
+  "frontend_id": "255",
+  "title": "验证二叉搜索树的前序遍历序列",
+  "title_slug": "verify-preorder-sequence-in-binary-search-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/verify-preorder-sequence-in-binary-search-tree/",
+  "meta": {
+    "name": "verifyPreorder",
+    "params": [
+      {
+        "name": "preorder",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def verifyPreorder(self, preorder: list[int]) -> bool:\n        "
+}

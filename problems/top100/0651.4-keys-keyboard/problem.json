@@ -1,0 +1,20 @@
+{
+  "frontend_id": "651",
+  "title": "四个键的键盘",
+  "title_slug": "4-keys-keyboard",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/4-keys-keyboard/",
+  "meta": {
+    "name": "maxA",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxA(self, n: int) -> int:\n        "
+}

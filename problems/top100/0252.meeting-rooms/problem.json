@@ -1,0 +1,20 @@
+{
+  "frontend_id": "252",
+  "title": "会议室",
+  "title_slug": "meeting-rooms",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/meeting-rooms/",
+  "meta": {
+    "name": "canAttendMeetings",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def canAttendMeetings(self, intervals: list[list[int]]) -> bool:\n        "
+}

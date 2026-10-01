@@ -1,0 +1,7 @@
+{
+  "raw": "[10,5,15,1,8,null,7]\n[4,2,7,2,3,5,null,2,null,null,null,null,null,1]",
+  "expected": [
+    3,
+    2
+  ]
+}

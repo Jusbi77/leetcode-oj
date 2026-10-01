@@ -1,0 +1,20 @@
+{
+  "frontend_id": "624",
+  "title": "数组列表中的最大距离",
+  "title_slug": "maximum-distance-in-arrays",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-distance-in-arrays/",
+  "meta": {
+    "name": "maxDistance",
+    "params": [
+      {
+        "name": "arrays",
+        "type": "list<list<integer>>"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxDistance(self, arrays: list[list[int]]) -> int:\n        "
+}

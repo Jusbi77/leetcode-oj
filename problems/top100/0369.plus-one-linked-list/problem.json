@@ -1,0 +1,22 @@
+{
+  "frontend_id": "369",
+  "title": "给单链表加一",
+  "title_slug": "plus-one-linked-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/plus-one-linked-list/",
+  "meta": {
+    "name": "plusOne",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def plusOne(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        "
+}

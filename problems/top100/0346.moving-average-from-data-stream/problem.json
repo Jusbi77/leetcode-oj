@@ -1,0 +1,37 @@
+{
+  "frontend_id": "346",
+  "title": "数据流中的移动平均值",
+  "title_slug": "moving-average-from-data-stream",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/moving-average-from-data-stream/",
+  "meta": {
+    "classname": "MovingAverage",
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "size"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "val"
+          }
+        ],
+        "name": "next",
+        "return": {
+          "type": "double"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MovingAverage:\n\n    def __init__(self, size: int):\n        \n\n    def next(self, val: int) -> float:\n        \n\n\n# Your MovingAverage object will be instantiated and called as such:\n# obj = MovingAverage(size)\n# param_1 = obj.next(val)"
+}

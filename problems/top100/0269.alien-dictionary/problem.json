@@ -1,0 +1,20 @@
+{
+  "frontend_id": "269",
+  "title": "火星词典",
+  "title_slug": "alien-dictionary",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/alien-dictionary/",
+  "meta": {
+    "name": "alienOrder",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def alienOrder(self, words: list[str]) -> str:\n        "
+}

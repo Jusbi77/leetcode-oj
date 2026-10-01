@@ -1,0 +1,72 @@
+{
+  "frontend_id": "1244",
+  "title": "力扣排行榜",
+  "title_slug": "design-a-leaderboard",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/design-a-leaderboard/",
+  "meta": {
+    "classname": "Leaderboard",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "name": "addScore",
+        "params": [
+          {
+            "type": "integer",
+            "name": "playerId"
+          },
+          {
+            "type": "integer",
+            "name": "score"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "top",
+        "params": [
+          {
+            "type": "integer",
+            "name": "K"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "name": "reset",
+        "params": [
+          {
+            "type": "integer",
+            "name": "playerId"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Leaderboard:\n\n    def __init__(self):\n        \n\n    def addScore(self, playerId: int, score: int) -> None:\n        \n\n    def top(self, K: int) -> int:\n        \n\n    def reset(self, playerId: int) -> None:\n        \n\n\n# Your Leaderboard object will be instantiated and called as such:\n# obj = Leaderboard()\n# obj.addScore(playerId,score)\n# param_2 = obj.top(K)\n# obj.reset(playerId)"
+}

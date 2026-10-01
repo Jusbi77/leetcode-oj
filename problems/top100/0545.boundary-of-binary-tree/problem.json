@@ -1,0 +1,20 @@
+{
+  "frontend_id": "545",
+  "title": "二叉树的边界",
+  "title_slug": "boundary-of-binary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/boundary-of-binary-tree/",
+  "meta": {
+    "name": "boundaryOfBinaryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def boundaryOfBinaryTree(self, root: Optional[TreeNode]) -> List[int]:\n        "
+}

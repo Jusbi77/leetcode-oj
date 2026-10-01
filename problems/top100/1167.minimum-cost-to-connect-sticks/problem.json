@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1167",
+  "title": "连接木棍的最低费用",
+  "title_slug": "minimum-cost-to-connect-sticks",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-cost-to-connect-sticks/",
+  "meta": {
+    "name": "connectSticks",
+    "params": [
+      {
+        "name": "sticks",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def connectSticks(self, sticks: list[int]) -> int:\n        "
+}

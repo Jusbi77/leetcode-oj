@@ -1,0 +1,84 @@
+{
+  "frontend_id": "588",
+  "title": "设计内存文件系统",
+  "title_slug": "design-in-memory-file-system",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/design-in-memory-file-system/",
+  "meta": {
+    "classname": "FileSystem",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "name": "ls",
+        "params": [
+          {
+            "type": "string",
+            "name": "path"
+          }
+        ],
+        "return": {
+          "type": "list<string>"
+        }
+      },
+      {
+        "name": "mkdir",
+        "params": [
+          {
+            "type": "string",
+            "name": "path"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "addContentToFile",
+        "params": [
+          {
+            "type": "string",
+            "name": "filePath"
+          },
+          {
+            "type": "string",
+            "name": "content"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "readContentFromFile",
+        "params": [
+          {
+            "type": "string",
+            "name": "filePath"
+          }
+        ],
+        "return": {
+          "type": "string"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class FileSystem:\n\n    def __init__(self):\n        \n\n    def ls(self, path: str) -> list[str]:\n        \n\n    def mkdir(self, path: str) -> None:\n        \n\n    def addContentToFile(self, filePath: str, content: str) -> None:\n        \n\n    def readContentFromFile(self, filePath: str) -> str:\n        \n\n\n# Your FileSystem object will be instantiated and called as such:\n# obj = FileSystem()\n# param_1 = obj.ls(path)\n# obj.mkdir(path)\n# obj.addContentToFile(filePath,content)\n# param_4 = obj.readContentFromFile(filePath)"
+}

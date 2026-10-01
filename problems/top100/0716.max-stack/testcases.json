@@ -1,0 +1,4 @@
+{
+  "raw": "[\"MaxStack\",\"push\",\"push\",\"push\",\"top\",\"popMax\",\"top\",\"peekMax\",\"pop\",\"top\"]\n[[],[5],[1],[5],[],[],[],[],[],[]]",
+  "expected": []
+}

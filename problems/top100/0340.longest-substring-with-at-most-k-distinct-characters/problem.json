@@ -1,0 +1,24 @@
+{
+  "frontend_id": "340",
+  "title": "至多包含 K 个不同字符的最长子串",
+  "title_slug": "longest-substring-with-at-most-k-distinct-characters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/",
+  "meta": {
+    "name": "lengthOfLongestSubstringKDistinct",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:\n        "
+}

@@ -1,0 +1,28 @@
+{
+  "frontend_id": "582",
+  "title": "杀掉进程",
+  "title_slug": "kill-process",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/kill-process/",
+  "meta": {
+    "name": "killProcess",
+    "params": [
+      {
+        "name": "pid",
+        "type": "list<integer>"
+      },
+      {
+        "name": "ppid",
+        "type": "list<integer>"
+      },
+      {
+        "name": "kill",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def killProcess(self, pid: List[int], ppid: List[int], kill: int) -> List[int]:\n        "
+}

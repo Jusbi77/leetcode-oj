@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1165",
+  "title": "单行键盘",
+  "title_slug": "single-row-keyboard",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/single-row-keyboard/",
+  "meta": {
+    "name": "calculateTime",
+    "params": [
+      {
+        "name": "keyboard",
+        "type": "string"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def calculateTime(self, keyboard: str, word: str) -> int:\n        "
+}

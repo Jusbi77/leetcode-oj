@@ -1,0 +1,20 @@
+{
+  "frontend_id": "254",
+  "title": "因子的组合",
+  "title_slug": "factor-combinations",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/factor-combinations/",
+  "meta": {
+    "name": "getFactors",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def getFactors(self, n: int) -> list[list[int]]:\n        "
+}

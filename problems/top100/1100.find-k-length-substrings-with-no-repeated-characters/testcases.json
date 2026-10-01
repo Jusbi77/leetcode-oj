@@ -1,0 +1,7 @@
+{
+  "raw": "\"havefunonleetcode\"\n5\n\"home\"\n5",
+  "expected": [
+    6,
+    0
+  ]
+}

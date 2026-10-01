@@ -1,0 +1,22 @@
+{
+  "frontend_id": "249",
+  "title": "移位字符串分组",
+  "title_slug": "group-shifted-strings",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/group-shifted-strings/",
+  "meta": {
+    "name": "groupStrings",
+    "params": [
+      {
+        "name": "strings",
+        "type": "string[]",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "list<list<string>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def groupStrings(self, strings: List[str]) -> List[List[str]]:\n        "
+}

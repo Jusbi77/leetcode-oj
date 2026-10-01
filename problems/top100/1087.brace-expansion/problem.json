@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1087",
+  "title": "花括号展开",
+  "title_slug": "brace-expansion",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/brace-expansion/",
+  "meta": {
+    "name": "expand",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def expand(self, s: str) -> List[str]:\n        "
+}

@@ -1,0 +1,42 @@
+{
+  "frontend_id": "708",
+  "title": "循环有序列表的插入",
+  "title_slug": "insert-into-a-sorted-circular-linked-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/",
+  "meta": {
+    "name": "insert",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "insertVal",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "kotlin",
+      "ruby",
+      "scala",
+      "c",
+      "golang",
+      "swift",
+      "php",
+      "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    next: _Node | null\n    \n    constructor(val?: number, next?: _Node) {\n        this.val = (val===undefined ? 0 : val);\n        this.next = (next===undefined ? null : next);\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val=None, next=None):\n        self.val = val\n        self.next = next\n\"\"\"\n\nclass Solution:\n    def insert(self, head: 'Optional[Node]', insertVal: int) -> 'Node':\n        "
+}

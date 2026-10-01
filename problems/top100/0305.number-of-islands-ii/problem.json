@@ -1,0 +1,32 @@
+{
+  "frontend_id": "305",
+  "title": "岛屿数量 II",
+  "title_slug": "number-of-islands-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-islands-ii/",
+  "meta": {
+    "name": "numIslands2",
+    "params": [
+      {
+        "name": "m",
+        "type": "integer",
+        "dealloc": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "dealloc": false
+      },
+      {
+        "name": "positions",
+        "type": "integer[][]",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def numIslands2(self, m: int, n: int, positions: list[list[int]]) -> list[int]:\n        "
+}

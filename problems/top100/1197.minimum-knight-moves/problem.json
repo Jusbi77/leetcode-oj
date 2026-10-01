@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1197",
+  "title": "进击的骑士",
+  "title_slug": "minimum-knight-moves",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-knight-moves/",
+  "meta": {
+    "name": "minKnightMoves",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      },
+      {
+        "name": "y",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minKnightMoves(self, x: int, y: int) -> int:\n        "
+}

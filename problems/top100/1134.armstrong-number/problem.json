@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1134",
+  "title": "阿姆斯特朗数",
+  "title_slug": "armstrong-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/armstrong-number/",
+  "meta": {
+    "name": "isArmstrong",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isArmstrong(self, n: int) -> bool:\n        "
+}

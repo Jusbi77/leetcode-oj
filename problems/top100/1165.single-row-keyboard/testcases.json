@@ -1,0 +1,7 @@
+{
+  "raw": "\"abcdefghijklmnopqrstuvwxyz\"\n\"cba\"\n\"pqrstuvwxyzabcdefghijklmno\"\n\"leetcode\"",
+  "expected": [
+    4,
+    73
+  ]
+}

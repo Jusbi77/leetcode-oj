@@ -1,0 +1,38 @@
+{
+  "frontend_id": "1265",
+  "title": "逆序打印不可变链表",
+  "title_slug": "print-immutable-linked-list-in-reverse",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/print-immutable-linked-list-in-reverse/",
+  "meta": {
+    "name": "printOutLinkListinReverse",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "kotlin",
+      "ruby",
+      "scala",
+      "php",
+      "golang",
+      "c",
+      "swift",
+      "typescript"
+    ],
+    "typescriptCustomType": "class ImmutableListNode {\n    val: number;\n    next: ImmutableListNode | null;\n    constructor(x: number) {\n        this.val = x;\n        this.next = null;\n    }\n\n    __setNextInternal__(x: ImmutableListNode) {\n        this.next = x;\n    }\n\n    getNext(): ImmutableListNode | null {\n        return this.next;\n    }\n        \n    printValue() {\n        __tuptuo__.push(this.val);\n    }\n};\n"
+  },
+  "code_snippet": "# \"\"\"\n# This is the ImmutableListNode's API interface.\n# You should not implement it, or speculate about its implementation.\n# \"\"\"\n# class ImmutableListNode:\n#     def printValue(self) -> None: # print the value of this node.\n#     def getNext(self) -> 'ImmutableListNode': # return the next node.\n\nclass Solution:\n    def printLinkedListInReverse(self, head: 'ImmutableListNode') -> None:\n        "
+}

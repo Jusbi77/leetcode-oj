@@ -1,0 +1,20 @@
+{
+  "frontend_id": "422",
+  "title": "有效的单词方块",
+  "title_slug": "valid-word-square",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/valid-word-square/",
+  "meta": {
+    "name": "validWordSquare",
+    "params": [
+      {
+        "name": "words",
+        "type": "list<string>"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def validWordSquare(self, words: List[str]) -> bool:\n        "
+}

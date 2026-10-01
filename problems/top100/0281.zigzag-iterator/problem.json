@@ -1,0 +1,26 @@
+{
+  "frontend_id": "281",
+  "title": "锯齿迭代器",
+  "title_slug": "zigzag-iterator",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/zigzag-iterator/",
+  "meta": {
+    "name": "ZigzagIterator",
+    "params": [
+      {
+        "name": "v1",
+        "type": "list<integer>"
+      },
+      {
+        "name": "v2",
+        "type": "list<integer>"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "dealloc": true
+    },
+    "manual": true
+  },
+  "code_snippet": "class ZigzagIterator:\n    def __init__(self, v1: List[int], v2: List[int]):\n        \n\n    def next(self) -> int:\n        \n\n    def hasNext(self) -> bool:\n        \n\n# Your ZigzagIterator object will be instantiated and called as such:\n# i, v = ZigzagIterator(v1, v2), []\n# while i.hasNext(): v.append(i.next())"
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1120",
+  "title": "子树的最大平均值",
+  "title_slug": "maximum-average-subtree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-average-subtree/",
+  "meta": {
+    "name": "maximumAverageSubtree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maximumAverageSubtree(self, root: TreeNode | None) -> float:\n        "
+}

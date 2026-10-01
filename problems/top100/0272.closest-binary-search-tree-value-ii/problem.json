@@ -1,0 +1,28 @@
+{
+  "frontend_id": "272",
+  "title": "最接近的二叉搜索树值 II",
+  "title_slug": "closest-binary-search-tree-value-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/closest-binary-search-tree-value-ii/",
+  "meta": {
+    "name": "closestKValues",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "target",
+        "type": "double"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def closestKValues(self, root: TreeNode | None, target: float, k: int) -> list[int]:\n        "
+}

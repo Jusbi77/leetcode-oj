@@ -1,0 +1,20 @@
+{
+  "frontend_id": "253",
+  "title": "会议室 II",
+  "title_slug": "meeting-rooms-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/meeting-rooms-ii/",
+  "meta": {
+    "name": "minMeetingRooms",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minMeetingRooms(self, intervals: list[list[int]]) -> int:\n        "
+}

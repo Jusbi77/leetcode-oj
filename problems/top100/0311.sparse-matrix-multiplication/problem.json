@@ -1,0 +1,27 @@
+{
+  "frontend_id": "311",
+  "title": "稀疏矩阵的乘法",
+  "title_slug": "sparse-matrix-multiplication",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/sparse-matrix-multiplication/",
+  "meta": {
+    "name": "multiply",
+    "params": [
+      {
+        "name": "mat1",
+        "type": "integer[][]"
+      },
+      {
+        "name": "mat2",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[][]",
+      "rowsize": "size_1",
+      "colsize": "*col_size_2",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def multiply(self, mat1: list[list[int]], mat2: list[list[int]]) -> list[list[int]]:\n        "
+}

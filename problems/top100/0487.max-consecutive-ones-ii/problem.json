@@ -1,0 +1,20 @@
+{
+  "frontend_id": "487",
+  "title": "最大连续1的个数 II",
+  "title_slug": "max-consecutive-ones-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/max-consecutive-ones-ii/",
+  "meta": {
+    "name": "findMaxConsecutiveOnes",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findMaxConsecutiveOnes(self, nums: list[int]) -> int:\n        "
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1272",
+  "title": "删除区间",
+  "title_slug": "remove-interval",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-interval/",
+  "meta": {
+    "name": "removeInterval",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      },
+      {
+        "type": "integer[]",
+        "name": "toBeRemoved"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeInterval(self, intervals: list[list[int]], toBeRemoved: list[int]) -> list[list[int]]:\n        "
+}

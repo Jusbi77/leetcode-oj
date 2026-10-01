@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1136",
+  "title": "并行课程",
+  "title_slug": "parallel-courses",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/parallel-courses/",
+  "meta": {
+    "name": "minimumSemesters",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "relations",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minimumSemesters(self, n: int, relations: list[list[int]]) -> int:\n        "
+}

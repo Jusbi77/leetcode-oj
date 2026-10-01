@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1100",
+  "title": "长度为 K 的无重复字符子串",
+  "title_slug": "find-k-length-substrings-with-no-repeated-characters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-k-length-substrings-with-no-repeated-characters/",
+  "meta": {
+    "name": "numKLenSubstrNoRepeats",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numKLenSubstrNoRepeats(self, s: str, k: int) -> int:\n        "
+}

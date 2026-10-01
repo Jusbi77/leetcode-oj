@@ -1,0 +1,23 @@
+{
+  "frontend_id": "280",
+  "title": "摆动排序",
+  "title_slug": "wiggle-sort",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/wiggle-sort/",
+  "meta": {
+    "name": "wiggleSort",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def wiggleSort(self, nums: list[int]) -> None:\n        \"\"\"\n        Do not return anything, modify nums in-place instead.\n        \"\"\"\n        "
+}

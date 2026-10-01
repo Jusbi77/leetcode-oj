@@ -1,0 +1,21 @@
+{
+  "frontend_id": "271",
+  "title": "字符串的编码与解码",
+  "title_slug": "encode-and-decode-strings",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/encode-and-decode-strings/",
+  "meta": {
+    "name": "encode",
+    "params": [
+      {
+        "name": "dummy_input",
+        "type": "list<string>"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    },
+    "manual": true
+  },
+  "code_snippet": "class Codec:\n    def encode(self, strs: List[str]) -> str:\n        \"\"\"Encodes a list of strings to a single string.\n        \"\"\"\n        \n\n    def decode(self, s: str) -> List[str]:\n        \"\"\"Decodes a single string to a list of strings.\n        \"\"\"\n        \n\n\n# Your Codec object will be instantiated and called as such:\n# codec = Codec()\n# codec.decode(codec.encode(strs))"
+}

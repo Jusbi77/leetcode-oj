@@ -1,0 +1,20 @@
+{
+  "frontend_id": "531",
+  "title": "孤独像素 I",
+  "title_slug": "lonely-pixel-i",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/lonely-pixel-i/",
+  "meta": {
+    "name": "findLonelyPixel",
+    "params": [
+      {
+        "name": "picture",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findLonelyPixel(self, picture: List[List[str]]) -> int:\n        "
+}

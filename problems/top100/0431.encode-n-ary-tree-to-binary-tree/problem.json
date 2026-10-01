@@ -1,0 +1,37 @@
+{
+  "frontend_id": "431",
+  "title": "将 N 叉树编码为二叉树",
+  "title_slug": "encode-n-ary-tree-to-binary-tree",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/encode-n-ary-tree-to-binary-tree/",
+  "meta": {
+    "name": "CodecDriver",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "python3",
+      "javascript",
+      "golang",
+      "kotlin",
+      "ruby",
+      "scala",
+      "php",
+      "swift",
+      "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    children: _Node[]\n    \n    constructor(v: number) {\n        this.val = v;\n        this.children = [];\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        self.val = val\n        self.children = children\n\"\"\"\n\n\"\"\"\n# Definition for a binary tree node.\nclass TreeNode:\n    def __init__(self, x):\n        self.val = x\n        self.left = None\n        self.right = None\n\"\"\"\n\nclass Codec:\n    # Encodes an n-ary tree to a binary tree.\n    def encode(self, root: 'Optional[Node]') -> Optional[TreeNode]:\n        \n\t\n\t# Decodes your binary tree to an n-ary tree.\n    def decode(self, data: Optional[TreeNode]) -> 'Optional[Node]':\n        \n\n# Your Codec object will be instantiated and called as such:\n# codec = Codec()\n# codec.decode(codec.encode(root))"
+}
