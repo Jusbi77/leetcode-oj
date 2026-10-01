@@ -17,10 +17,11 @@ def _diff(d):
 
 
 def cmd_fetch(args):
-    targets = ["tencent", "bytedance", "xiaohongshu"] if args.company == "all" else [args.company]
+    targets = list(config.PLANS.keys()) if args.company == "all" else [args.company]
     for t in targets:
         if t not in config.PLANS:
-            print(f"未知公司:{t}(可选:tencent / bytedance / xiaohongshu / all)")
+            known = " / ".join(config.PLANS.keys())
+            print(f"未知公司:{t}(可选:{known} / all)")
             return 2
         print(f"抓取 {config.PLANS[t]['name']} ({config.company_slug(t)}) …")
         n = fetch.fetch_company(t, delay=args.delay)
@@ -75,13 +76,22 @@ def cmd_show(args):
     return 0
 
 
+def cmd_web(args):
+    import webbrowser
+    from oj import web
+    if not args.no_open:
+        webbrowser.open(f"http://{args.host}:{args.port}/")
+    web.serve(host=args.host, port=args.port)
+    return 0
+
+
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     ap = argparse.ArgumentParser(prog="oj", description="LeetCode 企业真题本地刷题")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     f = sub.add_parser("fetch", help="抓取公司秋招计划题目(需 Edge 登录会员)")
-    f.add_argument("company", help="tencent / bytedance / xiaohongshu / all")
+    f.add_argument("company", help="tencent / bytedance / xiaohongshu / huawei / ... / all")
     f.add_argument("--delay", type=float, default=1.0, help="每题间隔秒数,默认 1.0")
     f.set_defaults(func=cmd_fetch)
 
@@ -103,6 +113,12 @@ def main(argv=None):
     s.add_argument("company")
     s.add_argument("problem", help="titleSlug 或题号")
     s.set_defaults(func=cmd_show)
+
+    w = sub.add_parser("web", help="启动浏览器做题界面")
+    w.add_argument("--host", default="127.0.0.1")
+    w.add_argument("--port", type=int, default=8600)
+    w.add_argument("--no-open", action="store_true", help="不自动打开浏览器")
+    w.set_defaults(func=cmd_web)
 
     args = ap.parse_args(argv)
     return args.func(args)
