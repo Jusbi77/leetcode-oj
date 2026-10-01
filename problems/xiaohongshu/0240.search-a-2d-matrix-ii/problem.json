@@ -1,0 +1,25 @@
+{
+  "frontend_id": "240",
+  "title": "搜索二维矩阵 II",
+  "title_slug": "search-a-2d-matrix-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/search-a-2d-matrix-ii/",
+  "meta": {
+    "name": "searchMatrix",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "manual": true
+  },
+  "code_snippet": "class Solution:\n    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:\n        "
+}

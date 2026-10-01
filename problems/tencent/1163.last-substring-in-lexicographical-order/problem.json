@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1163",
+  "title": "按字典序排在最后的子串",
+  "title_slug": "last-substring-in-lexicographical-order",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/last-substring-in-lexicographical-order/",
+  "meta": {
+    "name": "lastSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def lastSubstring(self, s: str) -> str:\n        "
+}

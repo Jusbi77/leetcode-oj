@@ -1,0 +1,24 @@
+{
+  "frontend_id": "402",
+  "title": "移掉 K 位数字",
+  "title_slug": "remove-k-digits",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-k-digits/",
+  "meta": {
+    "name": "removeKdigits",
+    "params": [
+      {
+        "name": "num",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeKdigits(self, num: str, k: int) -> str:\n        "
+}

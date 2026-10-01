@@ -1,0 +1,7 @@
+{
+  "raw": "\"abccccdd\"\n\"a\"",
+  "expected": [
+    7,
+    1
+  ]
+}

@@ -17,6 +17,28 @@ def test_from_env_missing(monkeypatch, tmp_path):
     assert cookies.from_env() is None
 
 
+def test_cache_roundtrip(monkeypatch, tmp_path):
+    monkeypatch.setattr(cookies, "CACHE_FILE", tmp_path / ".cookies.json")
+    assert cookies._read_cache() is None
+    cookies._write_cache({"LEETCODE_SESSION": "s", "csrftoken": "t"})
+    assert cookies._read_cache() == {"LEETCODE_SESSION": "s", "csrftoken": "t"}
+
+
+def test_get_prefers_cache_over_edge(monkeypatch, tmp_path):
+    # env 空、缓存命中时,不应触碰 Edge/钥匙串
+    monkeypatch.setattr(cookies, "ENV_FILE", tmp_path / ".env")
+    monkeypatch.setattr(cookies, "CACHE_FILE", tmp_path / ".cookies.json")
+    monkeypatch.delenv("LEETCODE_SESSION", raising=False)
+    monkeypatch.delenv("LEETCODE_CSRFTOKEN", raising=False)
+    cookies._write_cache({"LEETCODE_SESSION": "cached", "csrftoken": "ct"})
+
+    def _boom():
+        raise AssertionError("不应调用 Edge")
+
+    monkeypatch.setattr(cookies, "_from_edge", _boom)
+    assert cookies.get_leetcode_cookies()["LEETCODE_SESSION"] == "cached"
+
+
 def test_decrypt_roundtrip():
     from Crypto.Cipher import AES
     from Crypto.Protocol.KDF import PBKDF2

@@ -1,0 +1,53 @@
+{
+  "frontend_id": "225",
+  "title": "用队列实现栈",
+  "title_slug": "implement-stack-using-queues",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/implement-stack-using-queues/",
+  "meta": {
+    "classname": "MyStack",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "x"
+          }
+        ],
+        "name": "push",
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "pop"
+      },
+      {
+        "params": [],
+        "name": "top",
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "params": [],
+        "name": "empty",
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MyStack:\n\n    def __init__(self):\n        \n\n    def push(self, x: int) -> None:\n        \n\n    def pop(self) -> int:\n        \n\n    def top(self) -> int:\n        \n\n    def empty(self) -> bool:\n        \n\n\n# Your MyStack object will be instantiated and called as such:\n# obj = MyStack()\n# obj.push(x)\n# param_2 = obj.pop()\n# param_3 = obj.top()\n# param_4 = obj.empty()"
+}

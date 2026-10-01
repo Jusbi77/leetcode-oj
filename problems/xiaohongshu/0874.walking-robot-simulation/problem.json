@@ -1,0 +1,24 @@
+{
+  "frontend_id": "874",
+  "title": "模拟行走机器人",
+  "title_slug": "walking-robot-simulation",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/walking-robot-simulation/",
+  "meta": {
+    "name": "robotSim",
+    "params": [
+      {
+        "name": "commands",
+        "type": "integer[]"
+      },
+      {
+        "name": "obstacles",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def robotSim(self, commands: list[int], obstacles: list[list[int]]) -> int:\n        "
+}

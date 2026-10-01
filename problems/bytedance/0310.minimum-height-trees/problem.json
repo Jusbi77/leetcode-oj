@@ -1,0 +1,24 @@
+{
+  "frontend_id": "310",
+  "title": "最小高度树",
+  "title_slug": "minimum-height-trees",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-height-trees/",
+  "meta": {
+    "name": "findMinHeightTrees",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findMinHeightTrees(self, n: int, edges: list[list[int]]) -> list[int]:\n        "
+}

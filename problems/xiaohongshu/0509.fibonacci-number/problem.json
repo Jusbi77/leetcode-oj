@@ -1,0 +1,20 @@
+{
+  "frontend_id": "509",
+  "title": "斐波那契数",
+  "title_slug": "fibonacci-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/fibonacci-number/",
+  "meta": {
+    "name": "fib",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def fib(self, n: int) -> int:\n        "
+}

@@ -1,0 +1,22 @@
+{
+  "frontend_id": "23",
+  "title": "合并 K 个升序链表",
+  "title_slug": "merge-k-sorted-lists",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/merge-k-sorted-lists/",
+  "meta": {
+    "name": "mergeKLists",
+    "params": [
+      {
+        "name": "lists",
+        "type": "ListNode[]",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def mergeKLists(self, lists: list[ListNode | None]) -> ListNode | None:\n        "
+}

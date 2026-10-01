@@ -1,0 +1,20 @@
+{
+  "frontend_id": "64",
+  "title": "最小路径和",
+  "title_slug": "minimum-path-sum",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-path-sum/",
+  "meta": {
+    "name": "minPathSum",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minPathSum(self, grid: list[list[int]]) -> int:\n        "
+}

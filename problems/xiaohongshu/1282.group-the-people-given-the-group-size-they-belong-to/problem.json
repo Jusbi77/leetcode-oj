@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1282",
+  "title": "用户分组",
+  "title_slug": "group-the-people-given-the-group-size-they-belong-to",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/",
+  "meta": {
+    "name": "groupThePeople",
+    "params": [
+      {
+        "name": "groupSizes",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def groupThePeople(self, groupSizes: list[int]) -> list[list[int]]:\n        "
+}

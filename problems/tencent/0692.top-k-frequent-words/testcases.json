@@ -1,0 +1,15 @@
+{
+  "raw": "[\"i\",\"love\",\"leetcode\",\"i\",\"love\",\"coding\"]\n2\n[\"the\",\"day\",\"is\",\"sunny\",\"the\",\"the\",\"the\",\"sunny\",\"is\",\"is\"]\n4",
+  "expected": [
+    [
+      "i",
+      "love"
+    ],
+    [
+      "the",
+      "is",
+      "sunny",
+      "day"
+    ]
+  ]
+}
