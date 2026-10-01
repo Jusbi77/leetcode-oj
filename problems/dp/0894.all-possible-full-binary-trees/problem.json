@@ -1,0 +1,20 @@
+{
+  "frontend_id": "894",
+  "title": "所有可能的真二叉树",
+  "title_slug": "all-possible-full-binary-trees",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/all-possible-full-binary-trees/",
+  "meta": {
+    "name": "allPossibleFBT",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<TreeNode>"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def allPossibleFBT(self, n: int) -> list[TreeNode | None]:\n        "
+}

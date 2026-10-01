@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1601",
+  "title": "最多可达成的换楼请求数目",
+  "title_slug": "maximum-number-of-achievable-transfer-requests",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests/",
+  "meta": {
+    "name": "maximumRequests",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "type": "integer[][]",
+        "name": "requests"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maximumRequests(self, n: int, requests: list[list[int]]) -> int:\n        "
+}

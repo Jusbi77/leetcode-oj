@@ -1,0 +1,32 @@
+{
+  "frontend_id": "1575",
+  "title": "统计所有可行路径",
+  "title_slug": "count-all-possible-routes",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/count-all-possible-routes/",
+  "meta": {
+    "name": "countRoutes",
+    "params": [
+      {
+        "name": "locations",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer",
+        "name": "start"
+      },
+      {
+        "type": "integer",
+        "name": "finish"
+      },
+      {
+        "type": "integer",
+        "name": "fuel"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def countRoutes(self, locations: list[int], start: int, finish: int, fuel: int) -> int:\n        "
+}

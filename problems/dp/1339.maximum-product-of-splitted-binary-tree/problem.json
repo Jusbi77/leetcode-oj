@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1339",
+  "title": "分裂二叉树的最大乘积",
+  "title_slug": "maximum-product-of-splitted-binary-tree",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-product-of-splitted-binary-tree/",
+  "meta": {
+    "name": "maxProduct",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maxProduct(self, root: TreeNode | None) -> int:\n        "
+}

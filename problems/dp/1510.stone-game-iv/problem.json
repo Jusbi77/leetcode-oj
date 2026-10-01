@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1510",
+  "title": "石子游戏 IV",
+  "title_slug": "stone-game-iv",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/stone-game-iv/",
+  "meta": {
+    "name": "winnerSquareGame",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def winnerSquareGame(self, n: int) -> bool:\n        "
+}

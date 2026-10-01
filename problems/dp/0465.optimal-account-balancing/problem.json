@@ -1,0 +1,20 @@
+{
+  "frontend_id": "465",
+  "title": "最优账单平衡",
+  "title_slug": "optimal-account-balancing",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/optimal-account-balancing/",
+  "meta": {
+    "name": "minTransfers",
+    "params": [
+      {
+        "name": "transactions",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minTransfers(self, transactions: List[List[int]]) -> int:\n        "
+}

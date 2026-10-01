@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1259",
+  "title": "不相交的握手",
+  "title_slug": "handshakes-that-dont-cross",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/handshakes-that-dont-cross/",
+  "meta": {
+    "name": "numberOfWays",
+    "params": [
+      {
+        "name": "numPeople",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numberOfWays(self, numPeople: int) -> int:\n        "
+}

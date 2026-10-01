@@ -1,0 +1,10 @@
+{
+  "raw": "1\n2\n4",
+  "expected": [
+    true,
+    false,
+    true,
+    false,
+    false
+  ]
+}

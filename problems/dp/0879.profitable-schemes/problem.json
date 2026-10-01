@@ -1,0 +1,32 @@
+{
+  "frontend_id": "879",
+  "title": "盈利计划",
+  "title_slug": "profitable-schemes",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/profitable-schemes/",
+  "meta": {
+    "name": "profitableSchemes",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "minProfit",
+        "type": "integer"
+      },
+      {
+        "name": "group",
+        "type": "integer[]"
+      },
+      {
+        "name": "profit",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def profitableSchemes(self, n: int, minProfit: int, group: list[int], profit: list[int]) -> int:\n        "
+}

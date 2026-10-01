@@ -1,0 +1,20 @@
+{
+  "frontend_id": "664",
+  "title": "奇怪的打印机",
+  "title_slug": "strange-printer",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/strange-printer/",
+  "meta": {
+    "name": "strangePrinter",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def strangePrinter(self, s: str) -> int:\n        "
+}

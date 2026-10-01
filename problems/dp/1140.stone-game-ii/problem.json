@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1140",
+  "title": "石子游戏 II",
+  "title_slug": "stone-game-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/stone-game-ii/",
+  "meta": {
+    "name": "stoneGameII",
+    "params": [
+      {
+        "name": "piles",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def stoneGameII(self, piles: list[int]) -> int:\n        "
+}

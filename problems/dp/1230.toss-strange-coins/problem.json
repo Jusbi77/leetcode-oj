@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1230",
+  "title": "抛掷硬币",
+  "title_slug": "toss-strange-coins",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/toss-strange-coins/",
+  "meta": {
+    "name": "probabilityOfHeads",
+    "params": [
+      {
+        "name": "prob",
+        "type": "double[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def probabilityOfHeads(self, prob: List[float], target: int) -> float:\n        "
+}

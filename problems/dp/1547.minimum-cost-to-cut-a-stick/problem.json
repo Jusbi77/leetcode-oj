@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1547",
+  "title": "切棍子的最小成本",
+  "title_slug": "minimum-cost-to-cut-a-stick",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/",
+  "meta": {
+    "name": "minCost",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "type": "integer[]",
+        "name": "cuts"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minCost(self, n: int, cuts: list[int]) -> int:\n        "
+}

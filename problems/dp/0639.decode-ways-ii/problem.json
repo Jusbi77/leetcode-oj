@@ -1,0 +1,20 @@
+{
+  "frontend_id": "639",
+  "title": "解码方法 II",
+  "title_slug": "decode-ways-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/decode-ways-ii/",
+  "meta": {
+    "name": "numDecodings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numDecodings(self, s: str) -> int:\n        "
+}

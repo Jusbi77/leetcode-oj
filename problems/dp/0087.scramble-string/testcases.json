@@ -1,0 +1,8 @@
+{
+  "raw": "\"great\"\n\"rgeat\"\n\"abcde\"\n\"caebd\"\n\"a\"\n\"a\"",
+  "expected": [
+    true,
+    false,
+    true
+  ]
+}

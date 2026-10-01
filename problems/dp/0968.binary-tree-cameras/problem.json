@@ -1,0 +1,20 @@
+{
+  "frontend_id": "968",
+  "title": "监控二叉树",
+  "title_slug": "binary-tree-cameras",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/binary-tree-cameras/",
+  "meta": {
+    "name": "minCameraCover",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def minCameraCover(self, root: Optional[TreeNode]) -> int:\n        "
+}

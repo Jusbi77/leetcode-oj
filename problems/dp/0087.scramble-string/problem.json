@@ -1,0 +1,24 @@
+{
+  "frontend_id": "87",
+  "title": "扰乱字符串",
+  "title_slug": "scramble-string",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/scramble-string/",
+  "meta": {
+    "name": "isScramble",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isScramble(self, s1: str, s2: str) -> bool:\n        "
+}

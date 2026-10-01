@@ -1,0 +1,7 @@
+{
+  "raw": "\"aaabbb\"\n\"aba\"",
+  "expected": [
+    2,
+    2
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1416",
+  "title": "恢复数组",
+  "title_slug": "restore-the-array",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/restore-the-array/",
+  "meta": {
+    "name": "numberOfArrays",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "type": "integer",
+        "name": "k"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numberOfArrays(self, s: str, k: int) -> int:\n        "
+}

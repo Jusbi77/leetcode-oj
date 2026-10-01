@@ -1,0 +1,24 @@
+{
+  "frontend_id": "698",
+  "title": "划分为k个相等的子集",
+  "title_slug": "partition-to-k-equal-sum-subsets",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/",
+  "meta": {
+    "name": "canPartitionKSubsets",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def canPartitionKSubsets(self, nums: list[int], k: int) -> bool:\n        "
+}

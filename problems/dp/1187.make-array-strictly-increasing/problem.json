@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1187",
+  "title": "使数组严格递增",
+  "title_slug": "make-array-strictly-increasing",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/make-array-strictly-increasing/",
+  "meta": {
+    "name": "makeArrayIncreasing",
+    "params": [
+      {
+        "name": "arr1",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer[]",
+        "name": "arr2"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def makeArrayIncreasing(self, arr1: list[int], arr2: list[int]) -> int:\n        "
+}

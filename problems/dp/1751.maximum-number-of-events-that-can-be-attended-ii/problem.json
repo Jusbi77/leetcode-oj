@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1751",
+  "title": "最多可以参加的会议数目 II",
+  "title_slug": "maximum-number-of-events-that-can-be-attended-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/",
+  "meta": {
+    "name": "maxValue",
+    "params": [
+      {
+        "name": "events",
+        "type": "integer[][]"
+      },
+      {
+        "type": "integer",
+        "name": "k"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxValue(self, events: List[List[int]], k: int) -> int:\n        "
+}

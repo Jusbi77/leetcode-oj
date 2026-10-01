@@ -1,0 +1,20 @@
+{
+  "frontend_id": "956",
+  "title": "最高的广告牌",
+  "title_slug": "tallest-billboard",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/tallest-billboard/",
+  "meta": {
+    "name": "tallestBillboard",
+    "params": [
+      {
+        "name": "rods",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def tallestBillboard(self, rods: List[int]) -> int:\n        "
+}

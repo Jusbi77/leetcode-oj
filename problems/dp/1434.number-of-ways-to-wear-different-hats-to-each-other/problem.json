@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1434",
+  "title": "每个人戴不同帽子的方案数",
+  "title_slug": "number-of-ways-to-wear-different-hats-to-each-other",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/",
+  "meta": {
+    "name": "numberWays",
+    "params": [
+      {
+        "name": "hats",
+        "type": "list<list<integer>>"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numberWays(self, hats: List[List[int]]) -> int:\n        "
+}

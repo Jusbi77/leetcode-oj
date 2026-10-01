@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1463",
+  "title": "摘樱桃 II",
+  "title_slug": "cherry-pickup-ii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/cherry-pickup-ii/",
+  "meta": {
+    "name": "cherryPickup",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def cherryPickup(self, grid: list[list[int]]) -> int:\n        "
+}

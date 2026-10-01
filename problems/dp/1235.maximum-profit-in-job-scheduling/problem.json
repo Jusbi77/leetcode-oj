@@ -1,0 +1,28 @@
+{
+  "frontend_id": "1235",
+  "title": "规划兼职工作",
+  "title_slug": "maximum-profit-in-job-scheduling",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximum-profit-in-job-scheduling/",
+  "meta": {
+    "name": "jobScheduling",
+    "params": [
+      {
+        "name": "startTime",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer[]",
+        "name": "endTime"
+      },
+      {
+        "type": "integer[]",
+        "name": "profit"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:\n        "
+}

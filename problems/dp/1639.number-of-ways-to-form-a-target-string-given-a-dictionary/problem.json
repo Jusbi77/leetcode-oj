@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1639",
+  "title": "通过给定词典构造目标字符串的方案数",
+  "title_slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/",
+  "meta": {
+    "name": "numWays",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      },
+      {
+        "type": "string",
+        "name": "target"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numWays(self, words: List[str], target: str) -> int:\n        "
+}

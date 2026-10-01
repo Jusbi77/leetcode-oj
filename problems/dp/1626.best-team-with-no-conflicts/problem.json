@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1626",
+  "title": "无矛盾的最佳球队",
+  "title_slug": "best-team-with-no-conflicts",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/best-team-with-no-conflicts/",
+  "meta": {
+    "name": "bestTeamScore",
+    "params": [
+      {
+        "name": "scores",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer[]",
+        "name": "ages"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:\n        "
+}

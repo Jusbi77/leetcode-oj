@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1335",
+  "title": "工作计划的最低难度",
+  "title_slug": "minimum-difficulty-of-a-job-schedule",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/minimum-difficulty-of-a-job-schedule/",
+  "meta": {
+    "name": "minDifficulty",
+    "params": [
+      {
+        "name": "jobDifficulty",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer",
+        "name": "d"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minDifficulty(self, jobDifficulty: list[int], d: int) -> int:\n        "
+}

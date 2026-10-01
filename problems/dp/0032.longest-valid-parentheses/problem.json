@@ -1,0 +1,20 @@
+{
+  "frontend_id": "32",
+  "title": "最长有效括号",
+  "title_slug": "longest-valid-parentheses",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/longest-valid-parentheses/",
+  "meta": {
+    "name": "longestValidParentheses",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def longestValidParentheses(self, s: str) -> int:\n        "
+}

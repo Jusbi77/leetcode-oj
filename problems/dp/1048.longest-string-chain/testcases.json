@@ -1,0 +1,8 @@
+{
+  "raw": "[\"a\",\"b\",\"ba\",\"bca\",\"bda\",\"bdca\"]\n[\"xbc\",\"pcxbcf\",\"xb\",\"cxbc\",\"pcxbc\"]\n[\"abcd\",\"dbqca\"]",
+  "expected": [
+    4,
+    5,
+    1
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1444",
+  "title": "切披萨的方案数",
+  "title_slug": "number-of-ways-of-cutting-a-pizza",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-ways-of-cutting-a-pizza/",
+  "meta": {
+    "name": "ways",
+    "params": [
+      {
+        "name": "pizza",
+        "type": "string[]"
+      },
+      {
+        "type": "integer",
+        "name": "k"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def ways(self, pizza: List[str], k: int) -> int:\n        "
+}

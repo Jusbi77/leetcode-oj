@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1799",
+  "title": "N 次操作后的最大分数和",
+  "title_slug": "maximize-score-after-n-operations",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/maximize-score-after-n-operations/",
+  "meta": {
+    "name": "maxScore",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxScore(self, nums: List[int]) -> int:\n        "
+}

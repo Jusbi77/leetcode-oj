@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1048",
+  "title": "最长字符串链",
+  "title_slug": "longest-string-chain",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-string-chain/",
+  "meta": {
+    "name": "longestStrChain",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def longestStrChain(self, words: list[str]) -> int:\n        "
+}

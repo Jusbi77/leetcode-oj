@@ -1,0 +1,20 @@
+{
+  "frontend_id": "486",
+  "title": "预测赢家",
+  "title_slug": "predict-the-winner",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/predict-the-winner/",
+  "meta": {
+    "name": "predictTheWinner",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def predictTheWinner(self, nums: list[int]) -> bool:\n        "
+}

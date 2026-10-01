@@ -1,0 +1,28 @@
+{
+  "frontend_id": "920",
+  "title": "播放列表的数量",
+  "title_slug": "number-of-music-playlists",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-music-playlists/",
+  "meta": {
+    "name": "numMusicPlaylists",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "goal",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:\n        "
+}

@@ -1,0 +1,32 @@
+{
+  "frontend_id": "688",
+  "title": "骑士在棋盘上的概率",
+  "title_slug": "knight-probability-in-chessboard",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/knight-probability-in-chessboard/",
+  "meta": {
+    "name": "knightProbability",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      },
+      {
+        "name": "row",
+        "type": "integer"
+      },
+      {
+        "name": "column",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def knightProbability(self, n: int, k: int, row: int, column: int) -> float:\n        "
+}

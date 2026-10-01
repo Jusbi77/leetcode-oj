@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1125",
+  "title": "最小的必要团队",
+  "title_slug": "smallest-sufficient-team",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/smallest-sufficient-team/",
+  "meta": {
+    "name": "smallestSufficientTeam",
+    "params": [
+      {
+        "name": "req_skills",
+        "type": "string[]"
+      },
+      {
+        "type": "list<list<string>>",
+        "name": "people"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def smallestSufficientTeam(self, req_skills: list[str], people: list[list[str]]) -> list[int]:\n        "
+}

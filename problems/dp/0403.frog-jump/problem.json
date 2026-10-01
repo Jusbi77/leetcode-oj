@@ -1,0 +1,20 @@
+{
+  "frontend_id": "403",
+  "title": "青蛙过河",
+  "title_slug": "frog-jump",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/frog-jump/",
+  "meta": {
+    "name": "canCross",
+    "params": [
+      {
+        "name": "stones",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def canCross(self, stones: List[int]) -> bool:\n        "
+}

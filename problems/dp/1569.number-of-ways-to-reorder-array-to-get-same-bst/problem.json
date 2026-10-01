@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1569",
+  "title": "将子数组重新排序得到同一个二叉搜索树的方案数",
+  "title_slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
+  "meta": {
+    "name": "numOfWays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def numOfWays(self, nums: list[int]) -> int:\n        "
+}

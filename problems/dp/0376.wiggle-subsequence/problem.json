@@ -1,0 +1,20 @@
+{
+  "frontend_id": "376",
+  "title": "摆动序列",
+  "title_slug": "wiggle-subsequence",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/wiggle-subsequence/",
+  "meta": {
+    "name": "wiggleMaxLength",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def wiggleMaxLength(self, nums: list[int]) -> int:\n        "
+}

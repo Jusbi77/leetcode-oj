@@ -1,0 +1,36 @@
+{
+  "frontend_id": "1473",
+  "title": "粉刷房子 III",
+  "title_slug": "paint-house-iii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/paint-house-iii/",
+  "meta": {
+    "name": "minCost",
+    "params": [
+      {
+        "name": "houses",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer[][]",
+        "name": "cost"
+      },
+      {
+        "type": "integer",
+        "name": "m"
+      },
+      {
+        "type": "integer",
+        "name": "n"
+      },
+      {
+        "type": "integer",
+        "name": "target"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minCost(self, houses: list[int], cost: list[list[int]], m: int, n: int, target: int) -> int:\n        "
+}

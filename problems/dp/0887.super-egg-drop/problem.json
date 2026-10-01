@@ -1,0 +1,24 @@
+{
+  "frontend_id": "887",
+  "title": "鸡蛋掉落",
+  "title_slug": "super-egg-drop",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/super-egg-drop/",
+  "meta": {
+    "name": "superEggDrop",
+    "params": [
+      {
+        "name": "k",
+        "type": "integer"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def superEggDrop(self, k: int, n: int) -> int:\n        "
+}

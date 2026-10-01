@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1406",
+  "title": "石子游戏 III",
+  "title_slug": "stone-game-iii",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/stone-game-iii/",
+  "meta": {
+    "name": "stoneGameIII",
+    "params": [
+      {
+        "name": "stoneValue",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def stoneGameIII(self, stoneValue: list[int]) -> str:\n        "
+}

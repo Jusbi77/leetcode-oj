@@ -1,0 +1,20 @@
+{
+  "frontend_id": "877",
+  "title": "石子游戏",
+  "title_slug": "stone-game",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/stone-game/",
+  "meta": {
+    "name": "stoneGame",
+    "params": [
+      {
+        "name": "piles",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def stoneGame(self, piles: list[int]) -> bool:\n        "
+}

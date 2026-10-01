@@ -22,6 +22,7 @@ PLANS = {
     "baidu":       {"slug": "baidu-2023-fall-sprint",       "name": "百度秋招突击手册"},
     "mihoyo":      {"slug": "mihoyo-2023-fall-sprint",      "name": "米哈游秋招面试题通关"},
     "pdd":         {"slug": "pdd-2023-fall-sprint",         "name": "拼多多秋招备战方略"},
+    "dp":          {"slug": "dynamic-programming-grandmaster", "name": "动态规划（进阶版）"},
 }
 
 

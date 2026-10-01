@@ -1,0 +1,28 @@
+{
+  "frontend_id": "837",
+  "title": "新 21 点",
+  "title_slug": "new-21-game",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/new-21-game/",
+  "meta": {
+    "name": "new21Game",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      },
+      {
+        "name": "maxPts",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def new21Game(self, n: int, k: int, maxPts: int) -> float:\n        "
+}
