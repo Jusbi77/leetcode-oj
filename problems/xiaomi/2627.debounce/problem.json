@@ -1,0 +1,29 @@
+{
+  "frontend_id": "2627",
+  "title": "函数防抖",
+  "title_slug": "debounce",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/debounce/",
+  "meta": {
+    "name": "debounce",
+    "params": [
+      {
+        "name": "t",
+        "type": "integer"
+      },
+      {
+        "type": "string",
+        "name": "fn"
+      }
+    ],
+    "return": {
+      "type": "string"
+    },
+    "manual": true,
+    "languages": [
+      "javascript",
+      "typescript"
+    ]
+  },
+  "code_snippet": ""
+}

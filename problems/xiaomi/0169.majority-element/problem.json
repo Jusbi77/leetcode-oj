@@ -1,0 +1,20 @@
+{
+  "frontend_id": "169",
+  "title": "多数元素",
+  "title_slug": "majority-element",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/majority-element/",
+  "meta": {
+    "name": "majorityElement",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def majorityElement(self, nums: list[int]) -> int:\n        "
+}

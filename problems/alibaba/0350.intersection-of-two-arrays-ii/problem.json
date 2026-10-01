@@ -1,0 +1,24 @@
+{
+  "frontend_id": "350",
+  "title": "两个数组的交集 II",
+  "title_slug": "intersection-of-two-arrays-ii",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/intersection-of-two-arrays-ii/",
+  "meta": {
+    "name": "intersect",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "code_snippet": "class Solution:\n    def intersect(self, nums1: list[int], nums2: list[int]) -> list[int]:\n        "
+}

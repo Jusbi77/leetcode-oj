@@ -1,0 +1,24 @@
+{
+  "frontend_id": "43",
+  "title": "字符串相乘",
+  "title_slug": "multiply-strings",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/multiply-strings/",
+  "meta": {
+    "name": "multiply",
+    "params": [
+      {
+        "name": "num1",
+        "type": "string"
+      },
+      {
+        "name": "num2",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def multiply(self, num1: str, num2: str) -> str:\n        "
+}

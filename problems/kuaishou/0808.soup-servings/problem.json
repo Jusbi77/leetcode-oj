@@ -1,0 +1,20 @@
+{
+  "frontend_id": "808",
+  "title": "分汤",
+  "title_slug": "soup-servings",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/soup-servings/",
+  "meta": {
+    "name": "soupServings",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "code_snippet": "class Solution:\n    def soupServings(self, n: int) -> float:\n        "
+}

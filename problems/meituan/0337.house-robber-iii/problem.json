@@ -1,0 +1,20 @@
+{
+  "frontend_id": "337",
+  "title": "打家劫舍 III",
+  "title_slug": "house-robber-iii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/house-robber-iii/",
+  "meta": {
+    "name": "rob",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def rob(self, root: TreeNode | None) -> int:\n        "
+}

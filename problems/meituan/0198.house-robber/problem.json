@@ -1,0 +1,20 @@
+{
+  "frontend_id": "198",
+  "title": "打家劫舍",
+  "title_slug": "house-robber",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/house-robber/",
+  "meta": {
+    "name": "rob",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        "
+}

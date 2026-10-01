@@ -1,0 +1,7 @@
+{
+  "raw": "[\"flower\",\"flow\",\"flight\"]\n[\"dog\",\"racecar\",\"car\"]",
+  "expected": [
+    "fl",
+    ""
+  ]
+}

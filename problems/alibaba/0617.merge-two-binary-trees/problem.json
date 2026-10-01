@@ -1,0 +1,26 @@
+{
+  "frontend_id": "617",
+  "title": "合并二叉树",
+  "title_slug": "merge-two-binary-trees",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/merge-two-binary-trees/",
+  "meta": {
+    "name": "mergeTrees",
+    "params": [
+      {
+        "name": "root1",
+        "type": "TreeNode",
+        "dealloc": false
+      },
+      {
+        "name": "root2",
+        "type": "TreeNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def mergeTrees(self, root1: TreeNode | None, root2: TreeNode | None) -> TreeNode | None:\n        "
+}

@@ -1,0 +1,22 @@
+{
+  "frontend_id": "328",
+  "title": "奇偶链表",
+  "title_slug": "odd-even-linked-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/odd-even-linked-list/",
+  "meta": {
+    "name": "oddEvenList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def oddEvenList(self, head: ListNode | None) -> ListNode | None:\n        "
+}

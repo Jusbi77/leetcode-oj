@@ -1,0 +1,20 @@
+{
+  "frontend_id": "14",
+  "title": "最长公共前缀",
+  "title_slug": "longest-common-prefix",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/longest-common-prefix/",
+  "meta": {
+    "name": "longestCommonPrefix",
+    "params": [
+      {
+        "name": "strs",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def longestCommonPrefix(self, strs: list[str]) -> str:\n        "
+}

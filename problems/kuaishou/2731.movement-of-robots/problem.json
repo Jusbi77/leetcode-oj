@@ -1,0 +1,28 @@
+{
+  "frontend_id": "2731",
+  "title": "移动机器人",
+  "title_slug": "movement-of-robots",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/movement-of-robots/",
+  "meta": {
+    "name": "sumDistance",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "type": "string",
+        "name": "s"
+      },
+      {
+        "type": "integer",
+        "name": "d"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def sumDistance(self, nums: List[int], s: str, d: int) -> int:\n        "
+}

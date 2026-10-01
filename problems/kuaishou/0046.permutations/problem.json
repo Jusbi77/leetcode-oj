@@ -1,0 +1,22 @@
+{
+  "frontend_id": "46",
+  "title": "全排列",
+  "title_slug": "permutations",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/permutations/",
+  "meta": {
+    "name": "permute",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "colsize": "size_1",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def permute(self, nums: list[int]) -> list[list[int]]:\n        "
+}

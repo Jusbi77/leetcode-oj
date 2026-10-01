@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1156",
+  "title": "单字符重复子串的最大长度",
+  "title_slug": "swap-for-longest-repeated-character-substring",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/",
+  "meta": {
+    "name": "maxRepOpt1",
+    "params": [
+      {
+        "name": "text",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxRepOpt1(self, text: str) -> int:\n        "
+}

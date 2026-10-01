@@ -1,0 +1,20 @@
+{
+  "frontend_id": "226",
+  "title": "翻转二叉树",
+  "title_slug": "invert-binary-tree",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/invert-binary-tree/",
+  "meta": {
+    "name": "invertTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:\n        "
+}

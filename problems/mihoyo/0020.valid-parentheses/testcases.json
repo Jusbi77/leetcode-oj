@@ -1,0 +1,10 @@
+{
+  "raw": "\"()\"\n\"()[]{}\"\n\"(]\"\n\"([])\"\n\"([)]\"",
+  "expected": [
+    true,
+    true,
+    false,
+    true,
+    false
+  ]
+}

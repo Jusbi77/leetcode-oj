@@ -1,0 +1,20 @@
+{
+  "frontend_id": "221",
+  "title": "最大正方形",
+  "title_slug": "maximal-square",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximal-square/",
+  "meta": {
+    "name": "maximalSquare",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maximalSquare(self, matrix: List[List[str]]) -> int:\n        "
+}

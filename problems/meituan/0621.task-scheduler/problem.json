@@ -1,0 +1,24 @@
+{
+  "frontend_id": "621",
+  "title": "任务调度器",
+  "title_slug": "task-scheduler",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/task-scheduler/",
+  "meta": {
+    "name": "leastInterval",
+    "params": [
+      {
+        "name": "tasks",
+        "type": "character[]"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def leastInterval(self, tasks: list[str], n: int) -> int:\n        "
+}

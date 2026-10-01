@@ -1,0 +1,38 @@
+{
+  "frontend_id": "426",
+  "title": "将二叉搜索树转化为排序的双向链表",
+  "title_slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/",
+  "meta": {
+    "name": "treeToDoublyList",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "kotlin",
+      "ruby",
+      "scala",
+      "c",
+      "golang",
+      "swift",
+      "php",
+      "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    left: _Node | null\n    right: _Node | null\n    \n    constructor(val?: number, left?: _Node | null, right?: _Node | null) {\n        this.val = (val===undefined ? 0 : val)\n        this.left = (left===undefined ? null : left)\n        this.right = (right===undefined ? null : right)\n    }\n}\n"
+  },
+  "code_snippet": "\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\"\"\"\n\nclass Solution:\n    def treeToDoublyList(self, root: 'Optional[Node]') -> 'Optional[Node]':\n        "
+}

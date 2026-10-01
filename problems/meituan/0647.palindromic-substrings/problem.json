@@ -1,0 +1,20 @@
+{
+  "frontend_id": "647",
+  "title": "回文子串",
+  "title_slug": "palindromic-substrings",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/palindromic-substrings/",
+  "meta": {
+    "name": "countSubstrings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def countSubstrings(self, s: str) -> int:\n        "
+}

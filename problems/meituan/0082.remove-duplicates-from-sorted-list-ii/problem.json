@@ -1,0 +1,22 @@
+{
+  "frontend_id": "82",
+  "title": "删除排序链表中的重复元素 II",
+  "title_slug": "remove-duplicates-from-sorted-list-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/",
+  "meta": {
+    "name": "deleteDuplicates",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def deleteDuplicates(self, head: ListNode | None) -> ListNode | None:\n        "
+}

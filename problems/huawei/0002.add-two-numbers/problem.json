@@ -1,0 +1,27 @@
+{
+  "frontend_id": "2",
+  "title": "两数相加",
+  "title_slug": "add-two-numbers",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/add-two-numbers/",
+  "meta": {
+    "name": "addTwoNumbers",
+    "params": [
+      {
+        "name": "l1",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "l2",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def addTwoNumbers(self, l1: ListNode | None, l2: ListNode | None) -> ListNode | None:\n        "
+}

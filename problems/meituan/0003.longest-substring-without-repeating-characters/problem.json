@@ -1,0 +1,20 @@
+{
+  "frontend_id": "3",
+  "title": "无重复字符的最长子串",
+  "title_slug": "longest-substring-without-repeating-characters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-substring-without-repeating-characters/",
+  "meta": {
+    "name": "lengthOfLongestSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        "
+}

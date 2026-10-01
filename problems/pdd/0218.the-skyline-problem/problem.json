@@ -1,0 +1,22 @@
+{
+  "frontend_id": "218",
+  "title": "天际线问题",
+  "title_slug": "the-skyline-problem",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/the-skyline-problem/",
+  "meta": {
+    "name": "getSkyline",
+    "params": [
+      {
+        "name": "buildings",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "colsize": 2,
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:\n        "
+}

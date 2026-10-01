@@ -1,0 +1,24 @@
+{
+  "frontend_id": "79",
+  "title": "单词搜索",
+  "title_slug": "word-search",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/word-search/",
+  "meta": {
+    "name": "exist",
+    "params": [
+      {
+        "name": "board",
+        "type": "character[][]"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def exist(self, board: list[list[str]], word: str) -> bool:\n        "
+}

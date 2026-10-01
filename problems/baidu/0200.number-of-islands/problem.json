@@ -1,0 +1,21 @@
+{
+  "frontend_id": "200",
+  "title": "岛屿数量",
+  "title_slug": "number-of-islands",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/number-of-islands/",
+  "meta": {
+    "name": "numIslands",
+    "params": [
+      {
+        "name": "grid",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true
+  },
+  "code_snippet": "class Solution:\n    def numIslands(self, grid: List[List[str]]) -> int:\n        "
+}

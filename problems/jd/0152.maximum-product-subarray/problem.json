@@ -1,0 +1,20 @@
+{
+  "frontend_id": "152",
+  "title": "乘积最大子数组",
+  "title_slug": "maximum-product-subarray",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/maximum-product-subarray/",
+  "meta": {
+    "name": "maxProduct",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxProduct(self, nums: list[int]) -> int:\n        "
+}

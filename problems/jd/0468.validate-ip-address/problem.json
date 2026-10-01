@@ -1,0 +1,20 @@
+{
+  "frontend_id": "468",
+  "title": "验证IP地址",
+  "title_slug": "validate-ip-address",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/validate-ip-address/",
+  "meta": {
+    "name": "validIPAddress",
+    "params": [
+      {
+        "name": "queryIP",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def validIPAddress(self, queryIP: str) -> str:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "394",
+  "title": "字符串解码",
+  "title_slug": "decode-string",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/decode-string/",
+  "meta": {
+    "name": "decodeString",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def decodeString(self, s: str) -> str:\n        "
+}

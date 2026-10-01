@@ -1,0 +1,20 @@
+{
+  "frontend_id": "316",
+  "title": "去除重复字母",
+  "title_slug": "remove-duplicate-letters",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-duplicate-letters/",
+  "meta": {
+    "name": "removeDuplicateLetters",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def removeDuplicateLetters(self, s: str) -> str:\n        "
+}

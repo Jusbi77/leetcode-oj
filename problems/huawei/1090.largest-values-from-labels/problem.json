@@ -1,0 +1,32 @@
+{
+  "frontend_id": "1090",
+  "title": "受标签影响的最大值",
+  "title_slug": "largest-values-from-labels",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/largest-values-from-labels/",
+  "meta": {
+    "name": "largestValsFromLabels",
+    "params": [
+      {
+        "name": "values",
+        "type": "integer[]"
+      },
+      {
+        "name": "labels",
+        "type": "integer[]"
+      },
+      {
+        "name": "numWanted",
+        "type": "integer"
+      },
+      {
+        "name": "useLimit",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def largestValsFromLabels(self, values: list[int], labels: list[int], numWanted: int, useLimit: int) -> int:\n        "
+}

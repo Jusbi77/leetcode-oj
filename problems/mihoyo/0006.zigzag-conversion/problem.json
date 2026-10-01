@@ -1,0 +1,24 @@
+{
+  "frontend_id": "6",
+  "title": "Z 字形变换",
+  "title_slug": "zigzag-conversion",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/zigzag-conversion/",
+  "meta": {
+    "name": "convert",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "numRows",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def convert(self, s: str, numRows: int) -> str:\n        "
+}

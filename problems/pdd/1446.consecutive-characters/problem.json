@@ -1,0 +1,20 @@
+{
+  "frontend_id": "1446",
+  "title": "连续字符",
+  "title_slug": "consecutive-characters",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/consecutive-characters/",
+  "meta": {
+    "name": "maxPower",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxPower(self, s: str) -> int:\n        "
+}

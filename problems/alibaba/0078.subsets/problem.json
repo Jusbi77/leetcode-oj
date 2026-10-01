@@ -1,0 +1,21 @@
+{
+  "frontend_id": "78",
+  "title": "子集",
+  "title_slug": "subsets",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/subsets/",
+  "meta": {
+    "name": "subsets",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def subsets(self, nums: list[int]) -> list[list[int]]:\n        "
+}

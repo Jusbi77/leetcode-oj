@@ -1,0 +1,91 @@
+{
+  "frontend_id": "641",
+  "title": "设计循环双端队列",
+  "title_slug": "design-circular-deque",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/design-circular-deque/",
+  "meta": {
+    "classname": "MyCircularDeque",
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "k"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "insertFront"
+      },
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "insertLast"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "deleteFront"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "deleteLast"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "getFront"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "getRear"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "isEmpty"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "boolean"
+        },
+        "name": "isFull"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "code_snippet": "class MyCircularDeque:\n\n    def __init__(self, k: int):\n        \n\n    def insertFront(self, value: int) -> bool:\n        \n\n    def insertLast(self, value: int) -> bool:\n        \n\n    def deleteFront(self) -> bool:\n        \n\n    def deleteLast(self) -> bool:\n        \n\n    def getFront(self) -> int:\n        \n\n    def getRear(self) -> int:\n        \n\n    def isEmpty(self) -> bool:\n        \n\n    def isFull(self) -> bool:\n        \n\n\n# Your MyCircularDeque object will be instantiated and called as such:\n# obj = MyCircularDeque(k)\n# param_1 = obj.insertFront(value)\n# param_2 = obj.insertLast(value)\n# param_3 = obj.deleteFront()\n# param_4 = obj.deleteLast()\n# param_5 = obj.getFront()\n# param_6 = obj.getRear()\n# param_7 = obj.isEmpty()\n# param_8 = obj.isFull()"
+}

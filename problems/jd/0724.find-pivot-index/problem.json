@@ -1,0 +1,20 @@
+{
+  "frontend_id": "724",
+  "title": "寻找数组的中心下标",
+  "title_slug": "find-pivot-index",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/find-pivot-index/",
+  "meta": {
+    "name": "pivotIndex",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def pivotIndex(self, nums: list[int]) -> int:\n        "
+}

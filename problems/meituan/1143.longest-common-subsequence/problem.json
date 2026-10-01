@@ -1,0 +1,24 @@
+{
+  "frontend_id": "1143",
+  "title": "最长公共子序列",
+  "title_slug": "longest-common-subsequence",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/longest-common-subsequence/",
+  "meta": {
+    "name": "longestCommonSubsequence",
+    "params": [
+      {
+        "name": "text1",
+        "type": "string"
+      },
+      {
+        "type": "string",
+        "name": "text2"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def longestCommonSubsequence(self, text1: str, text2: str) -> int:\n        "
+}

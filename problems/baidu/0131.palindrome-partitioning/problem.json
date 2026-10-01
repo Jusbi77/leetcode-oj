@@ -1,0 +1,21 @@
+{
+  "frontend_id": "131",
+  "title": "分割回文串",
+  "title_slug": "palindrome-partitioning",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/palindrome-partitioning/",
+  "meta": {
+    "name": "partition",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<list<string>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def partition(self, s: str) -> list[list[str]]:\n        "
+}

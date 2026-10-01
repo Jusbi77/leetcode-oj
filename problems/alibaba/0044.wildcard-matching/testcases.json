@@ -1,0 +1,8 @@
+{
+  "raw": "\"aa\"\n\"a\"\n\"aa\"\n\"*\"\n\"cb\"\n\"?a\"",
+  "expected": [
+    false,
+    true,
+    false
+  ]
+}

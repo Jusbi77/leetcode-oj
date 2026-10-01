@@ -1,0 +1,22 @@
+{
+  "frontend_id": "206",
+  "title": "反转链表",
+  "title_slug": "reverse-linked-list",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/reverse-linked-list/",
+  "meta": {
+    "name": "reverseList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def reverseList(self, head: ListNode | None) -> ListNode | None:\n        "
+}

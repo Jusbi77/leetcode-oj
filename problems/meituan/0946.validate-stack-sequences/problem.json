@@ -1,0 +1,24 @@
+{
+  "frontend_id": "946",
+  "title": "验证栈序列",
+  "title_slug": "validate-stack-sequences",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/validate-stack-sequences/",
+  "meta": {
+    "name": "validateStackSequences",
+    "params": [
+      {
+        "name": "pushed",
+        "type": "integer[]"
+      },
+      {
+        "name": "popped",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:\n        "
+}

@@ -1,0 +1,20 @@
+{
+  "frontend_id": "9",
+  "title": "回文数",
+  "title_slug": "palindrome-number",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/palindrome-number/",
+  "meta": {
+    "name": "isPalindrome",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "code_snippet": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        "
+}

@@ -1,0 +1,21 @@
+{
+  "frontend_id": "107",
+  "title": "二叉树的层序遍历 II",
+  "title_slug": "binary-tree-level-order-traversal-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/",
+  "meta": {
+    "name": "levelOrderBottom",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def levelOrderBottom(self, root: TreeNode | None) -> list[list[int]]:\n        "
+}

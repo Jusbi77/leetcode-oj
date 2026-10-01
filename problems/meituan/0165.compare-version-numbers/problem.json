@@ -1,0 +1,24 @@
+{
+  "frontend_id": "165",
+  "title": "比较版本号",
+  "title_slug": "compare-version-numbers",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/compare-version-numbers/",
+  "meta": {
+    "name": "compareVersion",
+    "params": [
+      {
+        "name": "version1",
+        "type": "string"
+      },
+      {
+        "name": "version2",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def compareVersion(self, version1: str, version2: str) -> int:\n        "
+}

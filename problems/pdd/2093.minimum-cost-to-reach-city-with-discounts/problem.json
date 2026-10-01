@@ -1,0 +1,28 @@
+{
+  "frontend_id": "2093",
+  "title": "前往目标城市的最小费用",
+  "title_slug": "minimum-cost-to-reach-city-with-discounts",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-cost-to-reach-city-with-discounts/",
+  "meta": {
+    "name": "minimumCost",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "type": "integer[][]",
+        "name": "highways"
+      },
+      {
+        "type": "integer",
+        "name": "discounts"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minimumCost(self, n: int, highways: List[List[int]], discounts: int) -> int:\n        "
+}

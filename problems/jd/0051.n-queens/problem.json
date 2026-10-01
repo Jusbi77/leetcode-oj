@@ -1,0 +1,22 @@
+{
+  "frontend_id": "51",
+  "title": "N 皇后",
+  "title_slug": "n-queens",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/n-queens/",
+  "meta": {
+    "name": "solveNQueens",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<string>>",
+      "colsize": "param_1",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def solveNQueens(self, n: int) -> list[list[str]]:\n        "
+}

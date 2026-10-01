@@ -1,0 +1,25 @@
+{
+  "frontend_id": "106",
+  "title": "从中序与后序遍历序列构造二叉树",
+  "title_slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+  "meta": {
+    "name": "buildTree",
+    "params": [
+      {
+        "name": "inorder",
+        "type": "integer[]"
+      },
+      {
+        "name": "postorder",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "TreeNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def buildTree(self, inorder: list[int], postorder: list[int]) -> TreeNode | None:\n        "
+}

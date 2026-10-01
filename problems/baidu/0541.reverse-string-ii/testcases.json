@@ -1,0 +1,7 @@
+{
+  "raw": "\"abcdefg\"\n2\n\"abcd\"\n2",
+  "expected": [
+    "bacdfeg",
+    "bacd"
+  ]
+}

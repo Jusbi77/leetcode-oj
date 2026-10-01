@@ -1,0 +1,22 @@
+{
+  "frontend_id": "54",
+  "title": "螺旋矩阵",
+  "title_slug": "spiral-matrix",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/spiral-matrix/",
+  "meta": {
+    "name": "spiralOrder",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "size": "size_1 * col_size_1",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class Solution:\n    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:\n        "
+}

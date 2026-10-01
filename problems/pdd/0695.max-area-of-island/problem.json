@@ -1,0 +1,20 @@
+{
+  "frontend_id": "695",
+  "title": "岛屿的最大面积",
+  "title_slug": "max-area-of-island",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/max-area-of-island/",
+  "meta": {
+    "name": "maxAreaOfIsland",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def maxAreaOfIsland(self, grid: list[list[int]]) -> int:\n        "
+}

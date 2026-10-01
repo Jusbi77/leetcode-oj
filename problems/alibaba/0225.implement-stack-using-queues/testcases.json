@@ -1,0 +1,13 @@
+{
+  "raw": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]",
+  "expected": [
+    [
+      null,
+      null,
+      null,
+      2,
+      2,
+      false
+    ]
+  ]
+}

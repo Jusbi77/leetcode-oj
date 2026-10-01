@@ -1,0 +1,20 @@
+{
+  "frontend_id": "42",
+  "title": "接雨水",
+  "title_slug": "trapping-rain-water",
+  "difficulty": "Hard",
+  "url": "https://leetcode.cn/problems/trapping-rain-water/",
+  "meta": {
+    "name": "trap",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def trap(self, height: list[int]) -> int:\n        "
+}

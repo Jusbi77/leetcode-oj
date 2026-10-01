@@ -1,0 +1,59 @@
+{
+  "frontend_id": "303",
+  "title": "区域和检索 - 数组不可变",
+  "title_slug": "range-sum-query-immutable",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/range-sum-query-immutable/",
+  "meta": {
+    "classname": "NumArray",
+    "maxbytesperline": 135000,
+    "constructor": {
+      "params": [
+        {
+          "type": "integer[]",
+          "name": "nums"
+        },
+        {
+          "type": "integer",
+          "name": "numsSize",
+          "lang": "c",
+          "value": "size_1"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "name": "sumRange",
+        "params": [
+          {
+            "type": "integer",
+            "name": "left"
+          },
+          {
+            "type": "integer",
+            "name": "right"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "class NumArray:\n\n    def __init__(self, nums: list[int]):\n        \n\n    def sumRange(self, left: int, right: int) -> int:\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)"
+}

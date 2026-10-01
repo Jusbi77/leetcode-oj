@@ -1,0 +1,20 @@
+{
+  "frontend_id": "634",
+  "title": "寻找数组的错位排列",
+  "title_slug": "find-the-derangement-of-an-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/find-the-derangement-of-an-array/",
+  "meta": {
+    "name": "findDerangement",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def findDerangement(self, n: int) -> int:\n        "
+}

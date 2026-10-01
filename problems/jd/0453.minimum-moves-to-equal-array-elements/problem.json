@@ -1,0 +1,20 @@
+{
+  "frontend_id": "453",
+  "title": "最小操作次数使数组元素相等",
+  "title_slug": "minimum-moves-to-equal-array-elements",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/minimum-moves-to-equal-array-elements/",
+  "meta": {
+    "name": "minMoves",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "code_snippet": "class Solution:\n    def minMoves(self, nums: List[int]) -> int:\n        "
+}

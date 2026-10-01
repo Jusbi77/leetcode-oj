@@ -1,0 +1,23 @@
+{
+  "frontend_id": "48",
+  "title": "旋转图像",
+  "title_slug": "rotate-image",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/rotate-image/",
+  "meta": {
+    "name": "rotate",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def rotate(self, matrix: list[list[int]]) -> None:\n        \"\"\"\n        Do not return anything, modify matrix in-place instead.\n        \"\"\"\n        "
+}

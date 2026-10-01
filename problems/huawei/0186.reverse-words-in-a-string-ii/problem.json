@@ -1,0 +1,23 @@
+{
+  "frontend_id": "186",
+  "title": "反转字符串中的单词 II",
+  "title_slug": "reverse-words-in-a-string-ii",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/reverse-words-in-a-string-ii/",
+  "meta": {
+    "name": "reverseWords",
+    "params": [
+      {
+        "name": "s",
+        "type": "character[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "code_snippet": "class Solution:\n    def reverseWords(self, s: List[str]) -> None:\n        \"\"\"\n        Do not return anything, modify s in-place instead.\n        \"\"\"\n        "
+}

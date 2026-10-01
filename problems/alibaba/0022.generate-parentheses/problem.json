@@ -1,0 +1,20 @@
+{
+  "frontend_id": "22",
+  "title": "括号生成",
+  "title_slug": "generate-parentheses",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/generate-parentheses/",
+  "meta": {
+    "name": "generateParenthesis",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "code_snippet": "class Solution:\n    def generateParenthesis(self, n: int) -> list[str]:\n        "
+}

@@ -1,0 +1,29 @@
+{
+  "frontend_id": "2625",
+  "title": "扁平化嵌套数组",
+  "title_slug": "flatten-deeply-nested-array",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/flatten-deeply-nested-array/",
+  "meta": {
+    "name": "foobar",
+    "params": [
+      {
+        "name": "arr",
+        "type": "integer[]"
+      },
+      {
+        "type": "integer",
+        "name": "n"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "languages": [
+      "javascript",
+      "typescript"
+    ],
+    "manual": true
+  },
+  "code_snippet": ""
+}

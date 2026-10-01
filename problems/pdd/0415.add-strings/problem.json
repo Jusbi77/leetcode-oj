@@ -1,0 +1,24 @@
+{
+  "frontend_id": "415",
+  "title": "字符串相加",
+  "title_slug": "add-strings",
+  "difficulty": "Easy",
+  "url": "https://leetcode.cn/problems/add-strings/",
+  "meta": {
+    "name": "addStrings",
+    "params": [
+      {
+        "name": "num1",
+        "type": "string"
+      },
+      {
+        "name": "num2",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "code_snippet": "class Solution:\n    def addStrings(self, num1: str, num2: str) -> str:\n        "
+}

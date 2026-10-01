@@ -1,0 +1,26 @@
+{
+  "frontend_id": "19",
+  "title": "删除链表的倒数第 N 个结点",
+  "title_slug": "remove-nth-node-from-end-of-list",
+  "difficulty": "Medium",
+  "url": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/",
+  "meta": {
+    "name": "removeNthFromEnd",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "code_snippet": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:\n        "
+}
