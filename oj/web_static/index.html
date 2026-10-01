@@ -9,18 +9,18 @@
 /* ── reset & tokens ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --bg:       #0d1117;
-  --surface:  #161b22;
-  --border:   #30363d;
-  --text:     #e6edf3;
-  --muted:    #8b949e;
-  --accent:   #58a6ff;
-  --green:    #3fb950;
-  --orange:   #d29922;
-  --red:      #f85149;
-  --tag-easy: #238636;
+  --bg:       #f6f8fa;
+  --surface:  #ffffff;
+  --border:   #d0d7de;
+  --text:     #1f2328;
+  --muted:    #656d76;
+  --accent:   #0969da;
+  --green:    #1a7f37;
+  --orange:   #9a6700;
+  --red:      #cf222e;
+  --tag-easy: #1a7f37;
   --tag-med:  #9a6700;
-  --tag-hard: #b62324;
+  --tag-hard: #cf222e;
   --sidebar-w: 280px;
   --toolbar-h: 48px;
   font-size: 14px;
@@ -101,8 +101,8 @@ body {
   gap: 7px;
   transition: background .1s;
 }
-#plist li:hover  { background: rgba(88,166,255,.07); }
-#plist li.active { background: rgba(88,166,255,.12); border-left: 2px solid var(--accent); }
+#plist li:hover  { background: rgba(9,105,218,.06); }
+#plist li.active { background: rgba(9,105,218,.10); border-left: 2px solid var(--accent); }
 .p-id   { color: var(--muted); font-size: 11px; min-width: 30px; }
 .p-title { flex: 1; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .diff-tag {
@@ -110,9 +110,9 @@ body {
   padding: 1px 5px; border-radius: 3px;
   flex-shrink: 0;
 }
-.d-简单 { background: rgba(35,134,54,.3); color: #3fb950; }
-.d-中等 { background: rgba(154,103,0,.3); color: #d29922; }
-.d-困难 { background: rgba(182,35,36,.3); color: #f85149; }
+.d-简单 { background: rgba(26,127,55,.12); color: #1a7f37; }
+.d-中等 { background: rgba(154,103,0,.12); color: #9a6700; }
+.d-困难 { background: rgba(207,34,46,.12); color: #cf222e; }
 .solved-mark { color: var(--green); font-size: 12px; flex-shrink: 0; }
 
 /* ── main area ── */
@@ -151,7 +151,7 @@ body {
   white-space: pre-wrap;
   font-family: "SF Mono", Consolas, monospace;
   line-height: 1.5;
-  color: #c9d1d9;
+  color: var(--text);
 }
 #desc-body p { line-height: 1.7; margin-bottom: 10px; }
 #desc-hint  {
@@ -212,10 +212,10 @@ body {
   line-height: 1.6;
   font-family: "SF Mono", "Fira Code", Consolas, monospace;
   background: var(--bg) !important;
-  color: #c9d1d9 !important;
+  color: var(--text) !important;
 }
 .CodeMirror-gutters { background: var(--surface) !important; border-right: 1px solid var(--border) !important; }
-.CodeMirror-linenumber { color: #484f58 !important; }
+.CodeMirror-linenumber { color: var(--muted) !important; }
 .CodeMirror-cursor { border-left-color: var(--accent) !important; }
 .CodeMirror-selected { background: rgba(88,166,255,.15) !important; }
 #editor-wrap { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
